@@ -29,7 +29,7 @@ for fileName in fileNameList:
 		for line in betting_lines:
 			rowDict = eval(line) 
 			#convert one string line to a python dictionary
-            '''sample: {'Away_betting_line_handicap': '+1.5', 'Home_goals': '0', 'Away_Team': 'OTT Senators', 'Away_total_line_odds': '-140', 'Away_goals': '0', 'Home_total_line_handicap': 'U 3.5', 'Home_betting_line_handicap': '-1.5', 'Home_Team': 'PIT Penguins', 'Home_money_line': '-220', 'Home_betting_line_odds': '+180', 'Away_total_line_handicap': 'O 3.5', 'period_time_remain': '02:42', 'Away_money_line': '+175', 'period': 'P1', 'time': '17:42:43 PT, Mon May 15 2017', 'Home_total_line_odds': '+110', 'Away_betting_line_odds': '-225'}'''
+            ###sample: {'Away_betting_line_handicap': '+1.5', 'Home_goals': '0', 'Away_Team': 'OTT Senators', 'Away_total_line_odds': '-140', 'Away_goals': '0', 'Home_total_line_handicap': 'U 3.5', 'Home_betting_line_handicap': '-1.5', 'Home_Team': 'PIT Penguins', 'Home_money_line': '-220', 'Home_betting_line_odds': '+180', 'Away_total_line_handicap': 'O 3.5', 'period_time_remain': '02:42', 'Away_money_line': '+175', 'period': 'P1', 'time': '17:42:43 PT, Mon May 15 2017', 'Home_total_line_odds': '+110', 'Away_betting_line_odds': '-225'}'''
 			strToSplit = rowDict.get("time") # e.g. '17:42:43 PT, Mon May 15 2017'
 			strList = strToSplit.split(", ") # e.g. ['17:42:43 PT', 'Mon May 15 2017']
 			#print strList
