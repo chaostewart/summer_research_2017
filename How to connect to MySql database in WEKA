@@ -38,10 +38,13 @@ Step 3: Run the following start script for Weka Explorer:
     echo "used CLASSPATH: $CP"
     # start Explorer
     java -cp $CP -Xmx500m weka.gui.explorer.Explorer
+    (you can save the above script as eg.'script_weka.sh', 
+    and run it with the command "bash script_weka.sh" everytime you need to start Weka Explorer
+    
 
 Trouble shooting:
    + Sometimes (e.g. with MySQL) it can happen that a column type cannot be interpreted. 
     In that case it is necessary to map the name of the column type to the Java type it should be interpreted as.
     For different column types in MySQL, refer to: http://weka.8497.n7.nabble.com/No-suitable-driver-td13364.html
-      eg.If the following error occurs: 
+      eg.If the following error occurs: "Couldn't read from database: Unkown data type: INT. Add entry in weka/experiment..."
          Modify the props file by simply adding one line: INT = 5
