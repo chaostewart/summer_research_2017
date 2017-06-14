@@ -6,7 +6,7 @@ https://weka.wikispaces.com/Databases
 https://weka.wikispaces.com/CLASSPATH
 
 ## Step 1: Download JDBC Driver from https://dev.mysql.com/downloads/connector/j/
-    In my case, my mysql-connector-java-5.1.42-bin.jar is located in the following directory: /home/cla315/jars/
+In my case, my mysql-connector-java-5.1.42-bin.jar is located in the following directory: /home/cla315/jars/
     Now, open a shell and execute the following command:
       bash
       export CLASSPATH=$CLASSPATH:/home/cla315/jars/mysql-connector-java-5.1.42-bin.jar
@@ -14,7 +14,7 @@ https://weka.wikispaces.com/CLASSPATH
     Looks like you also have to save the JDBC Driver file in WEKA path, eg.:/home/cla315/weka-3-8-1/mysql-connector-java-5.1.42-bin.jar
   
 ## Step 2: Get this properties file from the weka.jar (extract the .jar file anywhere but current folder). 
-    You'll find the properties file for MySql database in the sub-folder, 
+You'll find the properties file for MySql database in the sub-folder, 
       ie. /weka/experiment/DatabaseUtils.props.mysql
       Copy this props file to home directory can change its name to DatabaseUtils.props 
       eg. /home/cla315/DatabaseUtils.props
@@ -38,8 +38,7 @@ https://weka.wikispaces.com/CLASSPATH
     echo "used CLASSPATH: $CP"
     # start Explorer
     java -cp $CP -Xmx500m weka.gui.explorer.Explorer
-    (you can save the above script as eg.'script_weka.sh', 
-    and run it with the command "bash script_weka.sh" everytime you need to start Weka Explorer
+ (you can save the above script as eg.'script_weka.sh', and run it with the command "bash script_weka.sh" everytime you need to start Weka Explorer)
     
 
 Trouble shooting:
