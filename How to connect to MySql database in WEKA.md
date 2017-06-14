@@ -7,11 +7,11 @@ https://weka.wikispaces.com/CLASSPATH
 
 ## Step 1: Download JDBC Driver from https://dev.mysql.com/downloads/connector/j/
 In my case, my mysql-connector-java-5.1.42-bin.jar is located in the following directory: /home/cla315/jars/
-    Now, open a shell and execute the following command:
-      bash
-      export CLASSPATH=$CLASSPATH:/home/cla315/jars/mysql-connector-java-5.1.42-bin.jar
-      (to check if it worked, echo $CLASSPATH)
-    Looks like you also have to save the JDBC Driver file in WEKA path, eg.:/home/cla315/weka-3-8-1/mysql-connector-java-5.1.42-bin.jar
+Now, open a shell and execute the following command:
+    bash
+    export CLASSPATH=$CLASSPATH:/home/cla315/jars/mysql-connector-java-5.1.42-bin.jar
+    (to check if it worked, echo $CLASSPATH)
+Looks like you also have to save the JDBC Driver file in WEKA path, eg.:/home/cla315/weka-3-8-1/mysql-connector-java-5.1.42-bin.jar
   
 ## Step 2: Get this properties file from the weka.jar (extract the .jar file anywhere but current folder). 
 You'll find the properties file for MySql database in the sub-folder, 
@@ -20,12 +20,11 @@ You'll find the properties file for MySql database in the sub-folder,
       eg. /home/cla315/DatabaseUtils.props
       because Weka only looks for the DatabaseUtils.props file.
       Next, modify the following content in the props file:
-        # JDBC driver (comma-separated list)
-         jdbcDriver=com.mysql.jdbc.Driver (or org.gjt.mm.mysql.Driver)
-
-        # database URL
-        jdbcURL=jdbc:mysql://server.my.domain:3306/MyDatabase
-        (eg. jdbcURL=jdbc:mysql://cs-oschulte-01.cs.sfu.ca:3306/chao_draft)
+            #JDBC driver (comma-separated list)
+             jdbcDriver=com.mysql.jdbc.Driver (or org.gjt.mm.mysql.Driver)
+            #database URL
+            jdbcURL=jdbc:mysql://server.my.domain:3306/MyDatabase
+            (eg. jdbcURL=jdbc:mysql://cs-oschulte-01.cs.sfu.ca:3306/chao_draft)
 
 ## Step 3: Run the following start script for Weka Explorer:
     #! /bin/bash
