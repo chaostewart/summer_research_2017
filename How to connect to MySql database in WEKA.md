@@ -2,12 +2,14 @@ Download the latest version of WEKA on your Linux machines from here: http://www
 Extract the .zip file in your home directory (echo $HOME), eg. mine is '/home/cla315/weka-3-8-1'
 
 Following instrucion from the following links:
+
 https://weka.wikispaces.com/Databases
 https://weka.wikispaces.com/CLASSPATH
 
 ## Step 1: Download JDBC Driver from https://dev.mysql.com/downloads/connector/j/
 In my case, my mysql-connector-java-5.1.42-bin.jar is located in the following directory: /home/cla315/jars/
 Now, open a shell and execute the following command:
+
     bash
     export CLASSPATH=$CLASSPATH:/home/cla315/jars/mysql-connector-java-5.1.42-bin.jar
     (to check if it worked, echo $CLASSPATH)
@@ -20,6 +22,7 @@ You'll find the properties file for MySql database in the sub-folder,
       eg. /home/cla315/DatabaseUtils.props
       because Weka only looks for the DatabaseUtils.props file.
       Next, modify the following content in the props file:
+      
             #JDBC driver (comma-separated list)
              jdbcDriver=com.mysql.jdbc.Driver (or org.gjt.mm.mysql.Driver)
             #database URL
