@@ -30,6 +30,7 @@ You'll find the properties file for MySql database in the sub-folder,
             (eg. jdbcURL=jdbc:mysql://cs-oschulte-01.cs.sfu.ca:3306/chao_draft)
 
 ## Step 3: Run the following start script for Weka Explorer:
+
     #! /bin/bash
     # Path to weka
     WEKA_PATH=~/weka-3-8-1/
