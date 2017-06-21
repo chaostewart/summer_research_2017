@@ -37,7 +37,7 @@
         Your MySQL connection id is 118014
         ......
         mysql> CREATE DATABASE functor_DATABASE_NAME;
-        mysql> show databases;
+        mysql> SHOW DATABASES;
 
 6. Run `dbdump_fix.sql` to import the schemas. This can be done from mysql or using 
 
