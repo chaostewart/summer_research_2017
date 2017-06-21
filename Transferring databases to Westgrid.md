@@ -30,7 +30,7 @@
  + There is also a script /home/functor/fixdump.sh .
  + This makes a fixed dump file `dbdump_fix.sql` with the required "functor" prefix for schemas.
 
-5. Create database with "funcotr" prefix. 
+5. Create database with "functor" prefix. 
 
         functor@bugaboo:~> mysql
         Welcome to the MySQL monitor.  Commands end with ; or \g.
