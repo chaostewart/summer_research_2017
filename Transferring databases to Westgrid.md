@@ -1,6 +1,6 @@
 1. Use mysqldump to dump MySQL databse from server to local home directory, save as file `dbdump.sql`.
 
-        cs-cl-03:~% mysqldump -hcs-oschulte-01.cs.sfu.ca -uroot -p******** ckm_and_exception_mining > dbdump.sql
+        cs-cl-03:~% mysqldump -hcs-oschulte-01.cs.sfu.ca -uroot -p******** DATABASE_NAME > dbdump.sql
 
 2. Transfer `dbdump.sql` to /global/scratch/functor using scp. 
 
