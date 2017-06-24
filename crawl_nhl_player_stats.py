@@ -86,10 +86,11 @@ def crawl_data(txt_file, driver):
 				print "row number is " + str(row_num)   # how to flip the page?
 				break
  
-			row_num_xpath =  current_row_path + "/td[1]/div/span"
-			row_num = driver.find_element_by_xpath(row_num_xpath).text
-			row_num = unicodedata.normalize('NFKD', row_num).encode('ascii', 'ignore')
-			data_record_dict = record_dict_value(data_record_dict, "row #", row_num)
+			id_url_xpath =  current_row_path + "/td[2]/div/a"
+			id_url = driver.find_element_by_xpath(id_url_xpath).get_attribute("href")
+			id_url = unicodedata.normalize('NFKD', id_url).encode('ascii', 'ignore')
+			player_id = id_url[(len(id_url)-7) :]
+			data_record_dict = record_dict_value(data_record_dict, "PlayerID", player_id)
 
 	 
 			player_name_xpath =  current_row_path + "/td[2]/div/a"
@@ -224,9 +225,12 @@ def start_crawl(gameType, season):
 	else:
 		with open(data_directory, "w") as txt_file:
 			crawl_data(txt_file, search_page_driver)
+	chrome_driver.close()
+
            
 
 if __name__ == '__main__':
-	for season in range (1998,2009):
+	for season in range (1998, 2016):
 		for gameType in range (2,4):
 			start_crawl(gameType, season)
+			
