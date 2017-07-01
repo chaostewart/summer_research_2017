@@ -1,0 +1,450 @@
+PlayerId,PlayerName,BirthDate,BirthYear,BirthMonth,BirthDay,Birthplace,Country,Height_info,Height,Weight,Position_info,Position,Shoots,DraftYear,DraftRound,RoundRank,Overall,Season,Team,GameType,GP,G,A,P,PlusMinus,PIM,PPG,PPP,SHG,SHP,GWG,OTG,S,S%,FOW%
+8468517,Andy Hilbert,1981-02-06,1981,02,06,"Howell, MI, USA",USA,"5' 10""",70,188,LW,L,Left,2000,2,7,37,1999-2000,U. Of Michigan Wolverines,Regular Season,35,17,15,32,--,39,--,--,--,--,--,--,--,--,0
+8468517,Andy Hilbert,1981-02-06,1981,02,06,"Howell, MI, USA",USA,"5' 10""",70,188,LW,L,Left,2000,2,7,37,1999-2000,United States,Regular Season,7,1,1,2,--,0,--,--,--,--,--,--,--,--,0
+8468518,Tomas Kopecky,1982-02-05,1982,02,05,"Ilava, SVK",SVK,"6' 3""",75,210,RW,R,Left,2000,2,8,38,1999-2000,Trencin Jr. Dukla Trencin Jr.,Regular Season,14,8,9,17,--,36,--,--,--,--,--,--,--,--,0
+8468518,Tomas Kopecky,1982-02-05,1982,02,05,"Ilava, SVK",SVK,"6' 3""",75,210,RW,R,Left,2000,2,8,38,1999-2000,Trencin Dukla Trencin,Regular Season,52,3,4,7,--,24,--,--,--,--,--,--,--,--,0
+8468518,Tomas Kopecky,1982-02-05,1982,02,05,"Ilava, SVK",SVK,"6' 3""",75,210,RW,R,Left,2000,2,8,38,1999-2000,Slovakia,Regular Season,7,0,2,2,--,4,--,--,--,--,--,--,--,--,0
+8468518,Tomas Kopecky,1982-02-05,1982,02,05,"Ilava, SVK",SVK,"6' 3""",75,210,RW,R,Left,2000,2,8,38,1999-2000,Slovakia,Regular Season,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468518,Tomas Kopecky,1982-02-05,1982,02,05,"Ilava, SVK",SVK,"6' 3""",75,210,RW,R,Left,2000,2,8,38,1999-2000,Trencin Dukla Trencin,Playoffs,5,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468520,Kurtis Foster,1981-11-24,1981,11,24,"Carp, ON, CAN",CAN,"6' 5""",77,225,D,D,Right,2000,2,10,40,1999-2000,Peterborough Petes,Regular Season,68,6,18,24,--,116,--,--,--,--,--,--,--,--,0
+8468520,Kurtis Foster,1981-11-24,1981,11,24,"Carp, ON, CAN",CAN,"6' 5""",77,225,D,D,Right,2000,2,10,40,1999-2000,Peterborough Petes,Playoffs,5,1,2,3,--,4,--,--,--,--,--,--,--,--,0
+8468523,Matt Pettinger,1980-10-22,1980,10,22,"Edmonton, AB, CAN",CAN,"6' 1""",73,205,LW,L,Left,2000,2,13,43,1999-2000,U. Of Denver Pioneers,Regular Season,19,2,6,8,--,49,--,--,--,--,--,--,--,--,0
+8468523,Matt Pettinger,1980-10-22,1980,10,22,"Edmonton, AB, CAN",CAN,"6' 1""",73,205,LW,L,Left,2000,2,13,43,1999-2000,Calgary Hitmen,Regular Season,27,14,6,20,--,41,--,--,--,--,--,--,--,--,0
+8468523,Matt Pettinger,1980-10-22,1980,10,22,"Edmonton, AB, CAN",CAN,"6' 1""",73,205,LW,L,Left,2000,2,13,43,1999-2000,Canada,Regular Season,7,4,0,4,--,4,--,--,--,--,--,--,--,--,0
+8468523,Matt Pettinger,1980-10-22,1980,10,22,"Edmonton, AB, CAN",CAN,"6' 1""",73,205,LW,L,Left,2000,2,13,43,1999-2000,Calgary Hitmen,Playoffs,11,2,6,8,--,30,--,--,--,--,--,--,--,--,0
+8468526,Jarret Stoll,1982-06-24,1982,06,24,"Melville, SK, CAN",CAN,"6' 1""",73,216,C,C,Right,2002,2,6,36,2001-2002,Kootenay Ice,Regular Season,47,32,34,66,8,64,12,--,3,--,2,--,--,--,0
+8468526,Jarret Stoll,1982-06-24,1982,06,24,"Melville, SK, CAN",CAN,"6' 1""",73,216,C,C,Right,2002,2,6,36,2001-2002,Canada,Regular Season,7,2,4,6,--,4,--,--,--,--,--,--,--,--,0
+8468526,Jarret Stoll,1982-06-24,1982,06,24,"Melville, SK, CAN",CAN,"6' 1""",73,216,C,C,Right,2002,2,6,36,2001-2002,Kootenay Ice,Regular Season,4,0,5,5,--,0,--,--,--,--,--,--,--,--,0
+8468526,Jarret Stoll,1982-06-24,1982,06,24,"Melville, SK, CAN",CAN,"6' 1""",73,216,C,C,Right,2002,2,6,36,2001-2002,Kootenay Ice,Playoffs,22,6,14,20,--,35,0,--,0,--,1,--,--,--,0
+8468526,Jarret Stoll,1982-06-24,1982,06,24,"Melville, SK, CAN",CAN,"6' 1""",73,216,C,C,Right,2002,2,6,36,2001-2002,Kootenay Ice,Playoffs,4,0,5,5,--,0,--,--,--,--,--,--,--,--,0
+8468527,Jared Aulin,1982-03-15,1982,03,15,"Calgary, AB, CAN",CAN,"6' 0""",72,192,C,C,Right,2000,2,17,47,1999-2000,Kamloops Blazers,Regular Season,57,17,38,55,--,70,--,--,--,--,--,--,--,--,0
+8468527,Jared Aulin,1982-03-15,1982,03,15,"Calgary, AB, CAN",CAN,"6' 0""",72,192,C,C,Right,2000,2,17,47,1999-2000,Kamloops Blazers,Playoffs,4,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Leksands IF Jr.,Regular Season,34,15,24,39,--,32,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Leksand Leksands IF,Regular Season,3,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Sweden,Regular Season,7,2,4,6,--,0,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Leksands IF U18,Regular Season,2,0,2,2,--,0,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Leksands IF Jr.,Playoffs,2,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8468529,Jonas Nordqvist,1982-04-26,1982,04,26,"Leksand, SWE",SWE,"6' 3""",75,202,C,C,Left,2000,2,19,49,1999-2000,Leksands IF U18,Playoffs,4,3,5,8,--,0,--,--,--,--,--,--,--,--,0
+8468531,Kris Vernarsky,1982-04-05,1982,04,05,"Detroit, MI, USA",USA,"6' 3""",75,207,C,C,Left,2000,2,21,51,1999-2000,Plymouth Whalers,Regular Season,64,16,22,38,--,63,--,--,--,--,--,--,--,--,0
+8468531,Kris Vernarsky,1982-04-05,1982,04,05,"Detroit, MI, USA",USA,"6' 3""",75,207,C,C,Left,2000,2,21,51,1999-2000,Plymouth Whalers,Playoffs,19,3,6,9,--,24,--,--,--,--,--,--,--,--,0
+8468532,Shane Endicott,1981-12-21,1981,12,21,"Saskatoon, SK, CAN",CAN,"6' 3""",75,209,C,C,Left,2000,2,22,52,1999-2000,Seattle Thunderbirds,Regular Season,70,23,32,55,--,62,--,--,--,--,--,--,--,--,0
+8468532,Shane Endicott,1981-12-21,1981,12,21,"Saskatoon, SK, CAN",CAN,"6' 3""",75,209,C,C,Left,2000,2,22,52,1999-2000,Seattle Thunderbirds,Playoffs,7,1,6,7,--,6,--,--,--,--,--,--,--,--,0
+8468534,Andreas Lilja,1975-07-13,1975,07,13,"Helsingborg, SWE",SWE,"6' 3""",75,220,D,D,Left,2000,2,24,54,1999-2000,Malmo Redhawks,Regular Season,49,8,11,19,--,88,--,--,--,--,--,--,--,--,0
+8468534,Andreas Lilja,1975-07-13,1975,07,13,"Helsingborg, SWE",SWE,"6' 3""",75,220,D,D,Left,2000,2,24,54,1999-2000,Malmo Redhawks,Playoffs,6,0,0,0,--,8,--,--,--,--,--,--,--,--,0
+8468535,Antoine Vermette,1982-07-20,1982,07,20,"St. Agapit, QC, CAN",CAN,"6' 1""",73,198,C,C,Left,2000,2,25,55,1999-2000,Victoriaville Tigres,Regular Season,71,30,41,71,--,87,--,--,--,--,--,--,--,--,0
+8468535,Antoine Vermette,1982-07-20,1982,07,20,"St. Agapit, QC, CAN",CAN,"6' 1""",73,198,C,C,Left,2000,2,25,55,1999-2000,Victoriaville Tigres,Playoffs,6,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8468536,Aleksander Suglobov,1982-01-15,1982,01,15,"Elektr, RUS",RUS,"6' 0""",72,200,RW,R,Left,2000,2,26,56,1999-2000,Torpedo Yaroslavl 2,Regular Season,38,23,10,33,--,--,--,--,--,--,--,--,--,--,0
+8468539,Ivan Huml,1981-09-06,1981,09,06,"Kladno, CZE",CZE,"6' 2""",74,200,LW,L,Left,2000,2,29,59,1999-2000,Langley Chiefs,Regular Season,49,53,51,104,--,72,--,--,--,--,--,--,--,--,0
+8468541,Jakub Cutta,1981-12-29,1981,12,29,"Jablonec Nad Nisou, CZE",CZE,"6' 3""",75,214,D,D,Left,2000,2,31,61,1999-2000,Swift Current Broncos,Regular Season,71,2,12,14,--,114,--,--,--,--,--,--,--,--,0
+8468541,Jakub Cutta,1981-12-29,1981,12,29,"Jablonec Nad Nisou, CZE",CZE,"6' 3""",75,214,D,D,Left,2000,2,31,61,1999-2000,Swift Current Broncos,Playoffs,12,0,2,2,--,24,--,--,--,--,--,--,--,--,0
+8468542,Paul Martin,1981-03-05,1981,03,05,"Minneapolis, MN, USA",USA,"6' 1""",73,200,D,D,Left,2000,2,32,62,1999-2000,Elk River Elks,Regular Season,24,15,35,50,--,26,--,--,--,--,--,--,--,--,0
+8468544,Filip Novak,1982-05-07,1982,05,07,"Ceske Budejovice, CZE",CZE,"6' 0""",72,203,D,D,Left,2000,2,34,64,1999-2000,Regina Pats,Regular Season,47,7,32,39,--,70,--,--,--,--,--,--,--,--,0
+8468544,Filip Novak,1982-05-07,1982,05,07,"Ceske Budejovice, CZE",CZE,"6' 0""",72,203,D,D,Left,2000,2,34,64,1999-2000,Regina Pats,Playoffs,7,1,4,5,--,5,--,--,--,--,--,--,--,--,0
+8468545,David Morisset,1981-04-06,1981,04,06,"Langley, BC, CAN",CAN,"6' 1""",73,191,RW,R,Right,2000,2,35,65,1999-2000,Seattle Thunderbirds,Regular Season,60,23,34,57,--,69,--,--,--,--,--,--,--,--,0
+8468545,David Morisset,1981-04-06,1981,04,06,"Langley, BC, CAN",CAN,"6' 1""",73,191,RW,R,Right,2000,2,35,65,1999-2000,Seattle Thunderbirds,Playoffs,7,3,4,7,--,12,--,--,--,--,--,--,--,--,0
+8468548,Joel Lundqvist,1982-03-02,1982,03,02,"Are, SWE",SWE,"6' 1""",73,194,C,C,Left,2000,3,3,68,1999-2000,Vastra Frolunda HC Goteborg U18,Regular Season,4,2,4,6,--,4,--,--,--,--,--,--,--,--,0
+8468548,Joel Lundqvist,1982-03-02,1982,03,02,"Are, SWE",SWE,"6' 1""",73,194,C,C,Left,2000,3,3,68,1999-2000,Vastra Frolunda HC Goteborg Jr.,Regular Season,25,7,12,19,--,2,--,--,--,--,--,--,--,--,0
+8468548,Joel Lundqvist,1982-03-02,1982,03,02,"Are, SWE",SWE,"6' 1""",73,194,C,C,Left,2000,3,3,68,1999-2000,Sweden,Regular Season,6,3,1,4,--,2,--,--,--,--,--,--,--,--,0
+8468548,Joel Lundqvist,1982-03-02,1982,03,02,"Are, SWE",SWE,"6' 1""",73,194,C,C,Left,2000,3,3,68,1999-2000,Vastra Frolunda HC Goteborg Jr.,Playoffs,6,2,3,5,--,2,--,--,--,--,--,--,--,--,0
+8468553,Sergei Zinovjev,1980-03-04,1980,03,04,"Novokuznetsk, RUS",RUS,"5' 10""",70,185,C,C,Left,2000,3,8,73,1999-2000,Metallurg Magnitogorsk,Regular Season,28,0,2,2,--,16,--,--,--,--,--,--,--,--,0
+8468553,Sergei Zinovjev,1980-03-04,1980,03,04,"Novokuznetsk, RUS",RUS,"5' 10""",70,185,C,C,Left,2000,3,8,73,1999-2000,Russia,Regular Season,5,3,2,5,--,2,--,--,--,--,--,--,--,--,0
+8468553,Sergei Zinovjev,1980-03-04,1980,03,04,"Novokuznetsk, RUS",RUS,"5' 10""",70,185,C,C,Left,2000,3,8,73,1999-2000,Russia,Regular Season,7,2,3,5,--,6,--,--,--,--,--,--,--,--,0
+8468554,Igor Radulov,1982-08-23,1982,08,23,"Nizhny Novgorod, RUS",RUS,"6' 1""",73,186,LW,L,Left,2000,3,9,74,1999-2000,Torpedo Yaroslavl 2,Regular Season,31,17,16,33,--,--,--,--,--,--,--,--,--,--,0
+8468558,Jozef Balej,1982-02-22,1982,02,22,"Myjava, SVK",SVK,"6' 0""",72,195,RW,R,Right,2000,3,13,78,1999-2000,Portland Winter Hawks,Regular Season,65,22,23,45,--,33,--,--,--,--,--,--,--,--,0
+8468558,Jozef Balej,1982-02-22,1982,02,22,"Myjava, SVK",SVK,"6' 0""",72,195,RW,R,Right,2000,3,13,78,1999-2000,Slovakia,Regular Season,6,0,5,5,--,4,--,--,--,--,--,--,--,--,0
+8468560,Ryan Bayda,1980-12-09,1980,12,09,"Saskatoon, SK, CAN",CAN,"5' 11""",71,185,LW,L,Left,2000,3,15,80,1999-2000,U. Of North Dakota Fighting Sioux,Regular Season,44,17,23,40,--,30,--,--,--,--,--,--,--,--,0
+8468561,Alexandre Kharitonov,1976-03-30,1976,03,30,"Moscow, RUS",RUS,"5' 8""",68,170,RW,R,Right,2000,3,16,81,1999-2000,Dynamo Moscow,Regular Season,35,14,20,34,--,26,--,--,--,--,--,--,--,--,0
+8468561,Alexandre Kharitonov,1976-03-30,1976,03,30,"Moscow, RUS",RUS,"5' 8""",68,170,RW,R,Right,2000,3,16,81,1999-2000,Russia,Regular Season,6,2,3,5,--,2,--,--,--,--,--,--,--,--,0
+8468561,Alexandre Kharitonov,1976-03-30,1976,03,30,"Moscow, RUS",RUS,"5' 8""",68,170,RW,R,Right,2000,3,16,81,1999-2000,Dynamo Moscow,Playoffs,17,8,4,12,--,10,--,--,--,--,--,--,--,--,0
+8468566,Yanick Lehoux,1982-04-08,1982,04,08,"Montreal, QC, CAN",CAN,"6' 1""",73,200,C,C,Right,2000,3,21,86,1999-2000,Baie-Comeau Drakkar,Regular Season,67,31,61,92,--,14,--,--,--,--,--,--,--,--,0
+8468566,Yanick Lehoux,1982-04-08,1982,04,08,"Montreal, QC, CAN",CAN,"6' 1""",73,200,C,C,Right,2000,3,21,86,1999-2000,Baie-Comeau Drakkar,Playoffs,6,1,2,3,--,2,--,--,--,--,--,--,--,--,0
+8468568,Kurt Sauer,1981-01-16,1981,01,16,"St. Cloud, MN, USA",USA,"6' 4""",76,222,D,D,Left,2000,3,23,88,1999-2000,Spokane Chiefs,Regular Season,71,3,12,15,--,48,--,--,--,--,--,--,--,--,0
+8468568,Kurt Sauer,1981-01-16,1981,01,16,"St. Cloud, MN, USA",USA,"6' 4""",76,222,D,D,Left,2000,3,23,88,1999-2000,Spokane Chiefs,Playoffs,15,2,1,3,--,8,--,--,--,--,--,--,--,--,0
+8468569,Libor Pivko,1980-03-29,1980,03,29,"Novy Jicin, CZE",CZE,"6' 2""",74,192,LW,L,Left,2000,3,24,89,1999-2000,HC Havirov Jr.,Regular Season,5,1,3,4,--,4,--,--,--,--,--,--,--,--,0
+8468569,Libor Pivko,1980-03-29,1980,03,29,"Novy Jicin, CZE",CZE,"6' 2""",74,192,LW,L,Left,2000,3,24,89,1999-2000,HC Femax Havirov,Regular Season,40,11,11,22,--,41,--,--,--,--,--,--,--,--,0
+8468569,Libor Pivko,1980-03-29,1980,03,29,"Novy Jicin, CZE",CZE,"6' 2""",74,192,LW,L,Left,2000,3,24,89,1999-2000,Czech Republic,Regular Season,7,1,2,3,--,4,--,--,--,--,--,--,--,--,0
+8468569,Libor Pivko,1980-03-29,1980,03,29,"Novy Jicin, CZE",CZE,"6' 2""",74,192,LW,L,Left,2000,3,24,89,1999-2000,HC Ytong Brno,Playoffs,4,3,4,7,--,0,--,--,--,--,--,--,--,--,0
+8468575,Dominic Moore,1980-08-03,1980,08,03,"Thornhill, ON, CAN",CAN,"6' 0""",72,192,C,C,Left,2000,3,30,95,1999-2000,Harvard Crimson,Regular Season,30,12,24,28,--,16,--,--,--,--,--,--,--,--,0
+8468577,Niclas Wallin,1975-02-20,1975,02,20,"Boden, SWE",SWE,"6' 3""",75,220,D,D,Left,2000,4,1,97,1999-2000,Brynas Brynas If Gavle,Regular Season,48,7,9,16,--,73,--,--,--,--,--,--,--,--,0
+8468577,Niclas Wallin,1975-02-20,1975,02,20,"Boden, SWE",SWE,"6' 3""",75,220,D,D,Left,2000,4,1,97,1999-2000,Brynas If Gavle,Regular Season,5,1,1,2,--,10,--,--,--,--,--,--,--,--,0
+8468577,Niclas Wallin,1975-02-20,1975,02,20,"Boden, SWE",SWE,"6' 3""",75,220,D,D,Left,2000,4,1,97,1999-2000,Brynas Brynas If Gavle,Playoffs,11,2,1,3,--,14,--,--,--,--,--,--,--,--,0
+8468578,Jonas Ronnqvist,1973-08-22,1973,08,22,"Kalix, SWE",SWE,"6' 2""",74,200,RW,R,Left,2000,4,2,98,1999-2000,Lulea Lulea HF,Regular Season,49,15,24,39,--,42,--,--,--,--,--,--,--,--,0
+8468578,Jonas Ronnqvist,1973-08-22,1973,08,22,"Kalix, SWE",SWE,"6' 2""",74,200,RW,R,Left,2000,4,2,98,1999-2000,Sweden,Regular Season,7,0,3,3,--,0,--,--,--,--,--,--,--,--,0
+8468578,Jonas Ronnqvist,1973-08-22,1973,08,22,"Kalix, SWE",SWE,"6' 2""",74,200,RW,R,Left,2000,4,2,98,1999-2000,Lulea Lulea HF,Playoffs,8,3,3,6,--,4,--,--,--,--,--,--,--,--,0
+8468584,Jon Disalvatore,1981-03-30,1981,03,30,"Bangor, ME, USA",USA,"6' 1""",73,200,RW,R,Right,2000,4,8,104,1999-2000,Providence Providence College,Regular Season,38,15,12,27,--,12,--,--,--,--,--,--,--,--,0
+8468597,Olli Malmivaara,1982-03-13,1982,03,13,"Kajaani, FIN",FIN,"6' 7""",79,230,D,D,Left,2000,4,21,117,1999-2000,Jokerit Helsinki U18,Regular Season,14,6,6,12,--,14,--,--,--,--,--,--,--,--,0
+8468597,Olli Malmivaara,1982-03-13,1982,03,13,"Kajaani, FIN",FIN,"6' 7""",79,230,D,D,Left,2000,4,21,117,1999-2000,Jokerit Helsinki U18,Regular Season,27,3,3,6,--,12,--,--,--,--,--,--,--,--,0
+8468597,Olli Malmivaara,1982-03-13,1982,03,13,"Kajaani, FIN",FIN,"6' 7""",79,230,D,D,Left,2000,4,21,117,1999-2000,Finland,Regular Season,7,1,1,2,--,6,--,--,--,--,--,--,--,--,0
+8468597,Olli Malmivaara,1982-03-13,1982,03,13,"Kajaani, FIN",FIN,"6' 7""",79,230,D,D,Left,2000,4,21,117,1999-2000,Jokerit Helsinki U18,Playoffs,1,0,0,0,0,2,--,--,--,--,--,--,0,0,0
+8468597,Olli Malmivaara,1982-03-13,1982,03,13,"Kajaani, FIN",FIN,"6' 7""",79,230,D,D,Left,2000,4,21,117,1999-2000,Jokerit Helsinki U18,Playoffs,12,0,2,2,0,2,--,--,--,--,--,--,0,0,0
+8468598,Lubomir Visnovsky,1976-08-11,1976,08,11,"Topolcany, SVK",SVK,"5' 10""",70,192,D,D,Left,2000,4,22,118,1999-2000,HC Slovan Harvard Bratislava,Regular Season,52,21,24,45,--,38,--,--,--,--,--,--,--,--,0
+8468598,Lubomir Visnovsky,1976-08-11,1976,08,11,"Topolcany, SVK",SVK,"5' 10""",70,192,D,D,Left,2000,4,22,118,1999-2000,Slovakia,Regular Season,9,0,6,6,--,2,--,--,--,--,--,--,--,--,0
+8468598,Lubomir Visnovsky,1976-08-11,1976,08,11,"Topolcany, SVK",SVK,"5' 10""",70,192,D,D,Left,2000,4,22,118,1999-2000,HC Slovan Harvard Bratislava,Playoffs,8,5,3,8,--,16,--,--,--,--,--,--,--,--,0
+8468599,Brian Fahey,1981-03-02,1981,03,02,"Glenview, IL, USA",USA,"6' 1""",73,216,D,D,Right,2000,4,23,119,1999-2000,U. Of Wisconsin Badgers,Regular Season,41,6,11,17,--,42,--,--,--,--,--,--,--,--,0
+8468604,Michel Ouellet,1982-03-05,1982,03,05,"Rimouski, QC, CAN",CAN,"6' 1""",73,193,RW,R,Right,2000,4,28,124,1999-2000,Rimouski Oceanic,Regular Season,72,36,53,89,--,38,--,--,--,--,--,--,--,--,0
+8468604,Michel Ouellet,1982-03-05,1982,03,05,"Rimouski, QC, CAN",CAN,"6' 1""",73,193,RW,R,Right,2000,4,28,124,1999-2000,Rimouski Oceanic,Playoffs,14,4,5,9,--,14,--,--,--,--,--,--,--,--,0
+8468611,Matt Hendricks,1981-06-17,1981,06,17,"Blaine, MN, USA",USA,"6' 0""",72,209,LW,L,Left,2000,5,1,131,1999-2000,Blaine Bengals,Regular Season,21,23,30,53,--,28,--,--,--,--,--,--,--,--,0
+8468612,Maxim Sushinsky,1974-07-01,1974,07,01,"St. Petersburg, RUS",RUS,"5' 9""",69,180,RW,R,Left,2000,5,2,132,1999-2000,Omsk Avangard Omsk,Regular Season,37,19,24,43,--,58,--,--,--,--,--,--,--,--,0
+8468612,Maxim Sushinsky,1974-07-01,1974,07,01,"St. Petersburg, RUS",RUS,"5' 9""",69,180,RW,R,Left,2000,5,2,132,1999-2000,Russia,Regular Season,6,3,1,4,--,0,--,--,--,--,--,--,--,--,0
+8468612,Maxim Sushinsky,1974-07-01,1974,07,01,"St. Petersburg, RUS",RUS,"5' 9""",69,180,RW,R,Left,2000,5,2,132,1999-2000,Omsk Avangard Omsk,Playoffs,8,2,5,7,--,6,--,--,--,--,--,--,--,--,0
+8468613,Petteri Nummelin,1972-11-25,1972,11,25,"Turku, FIN",FIN,"5' 10""",70,188,D,D,Left,2000,5,3,133,1999-2000,Davos HC Davos,Regular Season,40,15,23,38,--,20,--,--,--,--,--,--,--,--,0
+8468613,Petteri Nummelin,1972-11-25,1972,11,25,"Turku, FIN",FIN,"5' 10""",70,188,D,D,Left,2000,5,3,133,1999-2000,Finland,Regular Season,9,2,4,6,--,0,--,--,--,--,--,--,--,--,0
+8468613,Petteri Nummelin,1972-11-25,1972,11,25,"Turku, FIN",FIN,"5' 10""",70,188,D,D,Left,2000,5,3,133,1999-2000,Davos HC Davos,Playoffs,5,0,3,3,0,0,--,--,--,--,--,--,0,0,0
+8468615,Michael Danton,1980-10-21,1980,10,21,"Brampton, ON, CAN",CAN,"5' 9""",69,191,C,C,Right,2000,5,5,135,1999-2000,Barrie Colts,Regular Season,58,34,53,87,--,203,--,--,--,--,--,--,--,--,0
+8468615,Michael Danton,1980-10-21,1980,10,21,"Brampton, ON, CAN",CAN,"5' 9""",69,191,C,C,Right,2000,5,5,135,1999-2000,Barrie Colts,Regular Season,5,1,1,2,--,13,--,--,--,--,--,--,--,--,0
+8468615,Michael Danton,1980-10-21,1980,10,21,"Brampton, ON, CAN",CAN,"5' 9""",69,191,C,C,Right,2000,5,5,135,1999-2000,Barrie Colts,Playoffs,25,7,16,23,--,107,--,--,--,--,--,--,--,--,0
+8468615,Michael Danton,1980-10-21,1980,10,21,"Brampton, ON, CAN",CAN,"5' 9""",69,191,C,C,Right,2000,5,5,135,1999-2000,Barrie Colts,Playoffs,5,1,1,2,--,13,--,--,--,--,--,--,--,--,0
+8468617,Mike Stuart,1980-08-31,1980,08,31,"Chicago, IL, USA",USA,"6' 0""",72,195,D,D,Right,2000,5,7,137,1999-2000,Colorado College,Regular Season,32,2,5,7,--,26,--,--,--,--,--,--,--,--,0
+8468617,Mike Stuart,1980-08-31,1980,08,31,"Chicago, IL, USA",USA,"6' 0""",72,195,D,D,Right,2000,5,7,137,1999-2000,United States,Regular Season,7,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8468626,David Koci,1981-05-12,1981,05,12,"Prague, CZE",CZE,"6' 6""",78,238,LW,L,Left,2000,5,16,146,1999-2000,Sparta Jr. HC Sparta Praha Jr.,Regular Season,47,0,6,6,--,124,--,--,--,--,--,--,--,--,0
+8468634,Matt Koalska,1980-05-16,1980,05,16,"St. Paul, MN, USA",USA,"6' 0""",72,205,C,C,Left,2000,5,24,154,1999-2000,Twin Cities Vulcans,Regular Season,57,24,34,58,--,19,--,--,--,--,--,--,--,--,0
+8468634,Matt Koalska,1980-05-16,1980,05,16,"St. Paul, MN, USA",USA,"6' 0""",72,205,C,C,Left,2000,5,24,154,1999-2000,Twin Cities Vulcans,Playoffs,13,5,5,10,--,4,--,--,--,--,--,--,--,--,0
+8468635,Travis Moen,1982-04-06,1982,04,06,"Stewart Valley, SK, CAN",CAN,"6' 2""",74,215,LW,L,Left,2000,5,25,155,1999-2000,Kelowna Rockets,Regular Season,66,9,6,15,--,96,--,--,--,--,--,--,--,--,0
+8468635,Travis Moen,1982-04-06,1982,04,06,"Stewart Valley, SK, CAN",CAN,"6' 2""",74,215,LW,L,Left,2000,5,25,155,1999-2000,Kelowna Rockets,Playoffs,5,1,1,2,--,2,--,--,--,--,--,--,--,--,0
+8468636,Greg Zanon,1980-06-05,1980,06,05,"Burnaby, BC, CAN",CAN,"5' 11""",71,201,D,D,Left,2000,5,26,156,1999-2000,U. Of Nebraska-Omaha Mavericks,Regular Season,42,3,26,29,--,56,--,--,--,--,--,--,--,--,0
+8468639,John-Michael Liles,1980-11-25,1980,11,25,"Indianapolis, IN, USA",USA,"5' 10""",70,185,D,D,Left,2000,5,29,159,1999-2000,Michigan State Spartans,Regular Season,40,8,20,28,--,26,--,--,--,--,--,--,--,--,0
+8468647,Craig Weller,1981-03-17,1981,03,17,"Calgary, AB, CAN",CAN,"6' 4""",76,220,RW,R,Right,2000,5,37,167,1999-2000,Calgary Canucks,Regular Season,53,3,14,17,--,100,--,--,--,--,--,--,--,--,0
+8468647,Craig Weller,1981-03-17,1981,03,17,"Calgary, AB, CAN",CAN,"6' 4""",76,220,RW,R,Right,2000,5,37,167,1999-2000,Calgary Canucks,Playoffs,4,0,0,0,--,4,--,--,--,--,--,--,--,--,0
+8468650,Erik Reitz,1982-07-29,1982,07,29,"Detroit, MI, USA",USA,"6' 1""",73,222,D,D,Right,2000,6,3,170,1999-2000,Barrie Colts,Regular Season,63,2,10,12,--,85,--,--,--,--,--,--,--,--,0
+8468650,Erik Reitz,1982-07-29,1982,07,29,"Detroit, MI, USA",USA,"6' 1""",73,222,D,D,Right,2000,6,3,170,1999-2000,Barrie Colts,Regular Season,5,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8468650,Erik Reitz,1982-07-29,1982,07,29,"Detroit, MI, USA",USA,"6' 1""",73,222,D,D,Right,2000,6,3,170,1999-2000,Barrie Colts,Playoffs,25,0,5,5,--,44,--,--,--,--,--,--,--,--,0
+8468650,Erik Reitz,1982-07-29,1982,07,29,"Detroit, MI, USA",USA,"6' 1""",73,222,D,D,Right,2000,6,3,170,1999-2000,Barrie Colts,Playoffs,5,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8468654,Jarno Kultanen,1973-01-08,1973,01,08,"Luumaki, FIN",FIN,"6' 2""",74,198,D,D,Left,2000,6,7,174,1999-2000,Hifk Helsinki,Regular Season,46,6,8,14,--,51,--,--,--,--,--,--,--,--,0
+8468654,Jarno Kultanen,1973-01-08,1973,01,08,"Luumaki, FIN",FIN,"6' 2""",74,198,D,D,Left,2000,6,7,174,1999-2000,Hifk Helsinki,Regular Season,5,2,2,4,--,31,--,--,--,--,--,--,--,--,0
+8468654,Jarno Kultanen,1973-01-08,1973,01,08,"Luumaki, FIN",FIN,"6' 2""",74,198,D,D,Left,2000,6,7,174,1999-2000,Hifk Helsinki,Playoffs,9,0,0,0,0,6,--,--,--,--,--,--,0,0,0
+8468654,Jarno Kultanen,1973-01-08,1973,01,08,"Luumaki, FIN",FIN,"6' 2""",74,198,D,D,Left,2000,6,7,174,1999-2000,Hifk Helsinki,Playoffs,2,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8468656,Jukka Hentunen,1974-05-03,1974,05,03,"Joroinen, FIN",FIN,"5' 10""",70,190,RW,R,Right,2000,6,9,176,1999-2000,HPK HPK Hameenlinna,Regular Season,53,17,28,45,--,76,--,--,--,--,--,--,--,--,0
+8468656,Jukka Hentunen,1974-05-03,1974,05,03,"Joroinen, FIN",FIN,"5' 10""",70,190,RW,R,Right,2000,6,9,176,1999-2000,Finland,Regular Season,9,3,3,6,--,12,--,--,--,--,--,--,--,--,0
+8468656,Jukka Hentunen,1974-05-03,1974,05,03,"Joroinen, FIN",FIN,"5' 10""",70,190,RW,R,Right,2000,6,9,176,1999-2000,HPK HPK Hameenlinna,Playoffs,8,4,2,6,0,12,--,--,--,--,--,--,--,--,0
+8468660,Darcy Hordichuk,1980-08-10,1980,08,10,"Kamsack, SK, CAN",CAN,"6' 1""",73,215,LW,L,Left,2000,6,13,180,1999-2000,Saskatoon Blades,Regular Season,63,6,8,14,--,269,--,--,--,--,--,--,--,--,0
+8468660,Darcy Hordichuk,1980-08-10,1980,08,10,"Kamsack, SK, CAN",CAN,"6' 1""",73,215,LW,L,Left,2000,6,13,180,1999-2000,Saskatoon Blades,Playoffs,11,4,2,6,--,43,--,--,--,--,--,--,--,--,0
+8468670,Josh Olson,1981-07-13,1981,07,13,"Grand Forks, ND, USA",USA,"6' 3""",75,236,LW,L,Left,2000,6,23,190,1999-2000,Fargo-Moorhead Icesharks,Regular Season,18,2,5,7,--,37,--,--,--,--,--,--,--,--,0
+8468670,Josh Olson,1981-07-13,1981,07,13,"Grand Forks, ND, USA",USA,"6' 3""",75,236,LW,L,Left,2000,6,23,190,1999-2000,Omaha Lancers,Regular Season,43,6,7,13,--,44,--,--,--,--,--,--,--,--,0
+8468670,Josh Olson,1981-07-13,1981,07,13,"Grand Forks, ND, USA",USA,"6' 3""",75,236,LW,L,Left,2000,6,23,190,1999-2000,Omaha Lancers,Playoffs,4,0,0,0,--,4,--,--,--,--,--,--,--,--,0
+8468674,Deryk Engelland,1982-04-03,1982,04,03,"Edmonton, AB, CAN",CAN,"6' 2""",74,214,D,D,Right,2000,6,27,194,1999-2000,Moose Jaw Warriors,Regular Season,55,0,5,5,--,62,--,--,--,--,--,--,--,--,0
+8468674,Deryk Engelland,1982-04-03,1982,04,03,"Edmonton, AB, CAN",CAN,"6' 2""",74,214,D,D,Right,2000,6,27,194,1999-2000,Moose Jaw Warriors,Playoffs,4,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468682,Ryan Caldwell,1981-06-15,1981,06,15,"Deloraine, MB, CAN",CAN,"6' 2""",74,174,D,D,Left,2000,7,5,202,1999-2000,Thunder Bay Flyers,Regular Season,46,3,20,23,--,152,--,--,--,--,--,--,--,--,0
+8468694,Peter Bartos,1973-09-05,1973,09,05,"Martin, SVK",SVK,"6' 0""",72,185,LW,L,Left,2000,7,17,214,1999-2000,HC Ceske Budejovice,Regular Season,52,23,25,48,--,24,--,--,--,--,--,--,--,--,0
+8468694,Peter Bartos,1973-09-05,1973,09,05,"Martin, SVK",SVK,"6' 0""",72,185,LW,L,Left,2000,7,17,214,1999-2000,Slovakia,Regular Season,9,3,1,4,--,2,--,--,--,--,--,--,--,--,0
+8468694,Peter Bartos,1973-09-05,1973,09,05,"Martin, SVK",SVK,"6' 0""",72,185,LW,L,Left,2000,7,17,214,1999-2000,HC Ceske Budejovice,Playoffs,3,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8468695,Matthew Lombardi,1982-03-18,1982,03,18,"Montreal, QC, CAN",CAN,"5' 11""",71,195,C,C,Left,2002,3,27,90,2001-2002,Victoriaville Tigres,Regular Season,66,57,73,130,24,70,20,--,2,--,5,--,--,--,0
+8468695,Matthew Lombardi,1982-03-18,1982,03,18,"Montreal, QC, CAN",CAN,"5' 11""",71,195,C,C,Left,2002,3,27,90,2001-2002,Victoriaville Tigres,Regular Season,6,2,7,9,--,4,--,--,--,--,--,--,--,--,0
+8468695,Matthew Lombardi,1982-03-18,1982,03,18,"Montreal, QC, CAN",CAN,"5' 11""",71,195,C,C,Left,2002,3,27,90,2001-2002,Victoriaville Tigres,Playoffs,22,17,18,35,--,18,5,--,0,--,3,--,--,--,0
+8468695,Matthew Lombardi,1982-03-18,1982,03,18,"Montreal, QC, CAN",CAN,"5' 11""",71,195,C,C,Left,2002,3,27,90,2001-2002,Victoriaville Tigres,Playoffs,6,2,7,9,--,4,--,--,--,--,--,--,--,--,0
+8468700,Paul Gaustad,1982-02-03,1982,02,03,"Fargo, ND, USA",USA,"6' 5""",77,227,C,C,Left,2000,7,23,220,1999-2000,Portland Winter Hawks,Regular Season,56,6,8,14,--,110,--,--,--,--,--,--,--,--,0
+8468704,Antti Miettinen,1980-07-03,1980,07,03,"Hameenlinna, FIN",FIN,"6' 0""",72,190,RW,R,Right,2000,7,27,224,1999-2000,HPK Jr.,Regular Season,31,24,53,77,--,28,--,--,--,--,--,--,--,--,0
+8468704,Antti Miettinen,1980-07-03,1980,07,03,"Hameenlinna, FIN",FIN,"6' 0""",72,190,RW,R,Right,2000,7,27,224,1999-2000,HPK HPK Hameenlinna,Regular Season,39,2,1,3,--,8,--,--,--,--,--,--,--,--,0
+8468704,Antti Miettinen,1980-07-03,1980,07,03,"Hameenlinna, FIN",FIN,"6' 0""",72,190,RW,R,Right,2000,7,27,224,1999-2000,Finland,Regular Season,7,4,1,5,--,2,--,--,--,--,--,--,--,--,0
+8468704,Antti Miettinen,1980-07-03,1980,07,03,"Hameenlinna, FIN",FIN,"6' 0""",72,190,RW,R,Right,2000,7,27,224,1999-2000,HPK Jr.,Playoffs,2,1,6,7,0,2,--,--,--,--,--,--,--,--,0
+8468704,Antti Miettinen,1980-07-03,1980,07,03,"Hameenlinna, FIN",FIN,"6' 0""",72,190,RW,R,Right,2000,7,27,224,1999-2000,HPK HPK Hameenlinna,Playoffs,7,1,0,1,0,0,--,--,--,--,--,--,--,--,0
+8468707,Guillaume Lefebvre,1981-05-07,1981,05,07,"Amos, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2000,7,30,227,1999-2000,Cape Breton Screaming Eagles,Regular Season,44,26,28,54,--,82,--,--,--,--,--,--,--,--,0
+8468707,Guillaume Lefebvre,1981-05-07,1981,05,07,"Amos, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2000,7,30,227,1999-2000,Quebec Remparts,Regular Season,2,3,1,4,--,0,--,--,--,--,--,--,--,--,0
+8468707,Guillaume Lefebvre,1981-05-07,1981,05,07,"Amos, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2000,7,30,227,1999-2000,Rouyn-Noranda Huskies,Regular Season,25,4,11,15,--,39,--,--,--,--,--,--,--,--,0
+8468707,Guillaume Lefebvre,1981-05-07,1981,05,07,"Amos, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2000,7,30,227,1999-2000,Rouyn-Noranda Huskies,Playoffs,11,4,0,4,--,25,--,--,--,--,--,--,--,--,0
+8468712,Lubomir Sekeras,1968-11-18,1968,11,18,"Trencin, SVK",SVK,"6' 0""",72,183,D,D,Left,2000,8,3,232,1999-2000,Trinec HC Ocelari Trinec,Regular Season,52,7,24,31,--,36,--,--,--,--,--,--,--,--,0
+8468712,Lubomir Sekeras,1968-11-18,1968,11,18,"Trencin, SVK",SVK,"6' 0""",72,183,D,D,Left,2000,8,3,232,1999-2000,Slovakia,Regular Season,7,2,4,6,--,6,--,--,--,--,--,--,--,--,0
+8468712,Lubomir Sekeras,1968-11-18,1968,11,18,"Trencin, SVK",SVK,"6' 0""",72,183,D,D,Left,2000,8,3,232,1999-2000,Trinec HC Ocelari Trinec,Playoffs,4,0,2,2,--,2,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,Lukko Jr.,Regular Season,26,2,5,7,--,6,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,HC Essamika Jr.,Regular Season,2,4,4,8,--,0,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,Latvia,Regular Season,5,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,Latvia,Regular Season,5,5,1,6,--,14,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,Latvia,Regular Season,7,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468714,Janis Sprukts,1982-01-31,1982,01,31,"Riga, LVA",LVA,"6' 3""",75,235,C,C,Left,2000,8,5,234,1999-2000,Lukko Jr.,Playoffs,3,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,C. Budejovice Jr. HC Ceske Budejovice Jr.,Regular Season,8,4,2,6,--,26,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,SHC Vajgar Jindrichuv Hradec,Regular Season,4,1,1,2,--,0,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,IHC Pisek,Regular Season,3,1,0,1,--,0,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,Czech Republic,Regular Season,7,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,HC Ceske Budejovice,Regular Season,28,1,0,1,--,2,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,IHC Pisek,Playoffs,2,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8468717,Zdenek Kutlak,1980-02-13,1980,02,13,"Budejovice, CZE",CZE,"6' 3""",75,210,D,D,Left,2000,8,8,237,1999-2000,HC Ceske Budejovice,Playoffs,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468726,Chad Wiseman,1981-03-25,1981,03,25,"Burlington, ON, CAN",CAN,"6' 1""",73,205,LW,L,Left,2000,8,17,246,1999-2000,Mississauga IceDogs,Regular Season,68,23,45,68,--,53,--,--,--,--,--,--,--,--,0
+8468732,Darryl Bootland,1981-11-02,1981,11,02,"Toronto, ON, CAN",CAN,"6' 1""",73,197,RW,R,Right,2000,8,23,252,1999-2000,Toronto St. Michael's Majors,Regular Season,65,24,30,54,--,166,--,--,--,--,--,--,--,--,0
+8468738,Sean McMorrow,1982-01-19,1982,01,19,"Vancouver, BC, CAN",CAN,"6' 4""",76,224,RW,R,Right,2000,8,29,258,1999-2000,Sarnia Sting,Regular Season,31,0,1,1,--,75,--,--,--,--,--,--,--,--,0
+8468738,Sean McMorrow,1982-01-19,1982,01,19,"Vancouver, BC, CAN",CAN,"6' 4""",76,224,RW,R,Right,2000,8,29,258,1999-2000,Kitchener Rangers,Regular Season,31,0,1,1,--,67,--,--,--,--,--,--,--,--,0
+8468738,Sean McMorrow,1982-01-19,1982,01,19,"Vancouver, BC, CAN",CAN,"6' 4""",76,224,RW,R,Right,2000,8,29,258,1999-2000,Kitchener Rangers,Playoffs,4,0,0,0,--,12,--,--,--,--,--,--,--,--,0
+8468743,Thomas Ziegler,1978-06-09,1978,06,09,"Zurich, CHE",CHE,"5' 11""",71,176,C,C,Left,2000,9,2,263,1999-2000,Ambri HC Ambri-Piotta,Regular Season,45,7,7,14,--,24,--,--,--,--,--,--,--,--,0
+8468743,Thomas Ziegler,1978-06-09,1978,06,09,"Zurich, CHE",CHE,"5' 11""",71,176,C,C,Left,2000,9,2,263,1999-2000,Switzerland,Regular Season,8,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468743,Thomas Ziegler,1978-06-09,1978,06,09,"Zurich, CHE",CHE,"5' 11""",71,176,C,C,Left,2000,9,2,263,1999-2000,Switzerland,Regular Season,7,2,2,4,--,0,--,--,--,--,--,--,--,--,0
+8468743,Thomas Ziegler,1978-06-09,1978,06,09,"Zurich, CHE",CHE,"5' 11""",71,176,C,C,Left,2000,9,2,263,1999-2000,Ambri HC Ambri-Piotta,Playoffs,9,1,5,6,--,16,--,--,--,--,--,--,--,--,0
+8468745,Jean-Philippe Cote,1982-04-22,1982,04,22,"Charlesbourg, QC, CAN",CAN,"6' 2""",74,216,D,D,Left,2000,9,4,265,1999-2000,Quebec Remparts,Regular Season,34,0,10,10,--,15,--,--,--,--,--,--,--,--,0
+8468745,Jean-Philippe Cote,1982-04-22,1982,04,22,"Charlesbourg, QC, CAN",CAN,"6' 2""",74,216,D,D,Left,2000,9,4,265,1999-2000,Cape Breton Screaming Eagles,Regular Season,28,0,4,4,--,21,--,--,--,--,--,--,--,--,0
+8468745,Jean-Philippe Cote,1982-04-22,1982,04,22,"Charlesbourg, QC, CAN",CAN,"6' 2""",74,216,D,D,Left,2000,9,4,265,1999-2000,Cape Breton Screaming Eagles,Playoffs,4,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8468747,Tomi Pettinen,1977-06-17,1977,06,17,"Ylojarvi, FIN",FIN,"6' 3""",75,220,D,D,Left,2000,9,6,267,1999-2000,Ilves Tampere,Regular Season,51,1,6,7,--,84,--,--,--,--,--,--,--,--,0
+8468747,Tomi Pettinen,1977-06-17,1977,06,17,"Ylojarvi, FIN",FIN,"6' 3""",75,220,D,D,Left,2000,9,6,267,1999-2000,Ilves Tampere,Playoffs,3,1,2,3,0,2,--,--,--,--,--,--,--,--,0
+8468750,Micki Dupont,1980-04-15,1980,04,15,"Calgary, AB, CAN",CAN,"5' 10""",70,186,D,D,Right,2000,9,9,270,1999-2000,Kamloops Blazers,Regular Season,70,26,62,88,--,156,--,--,--,--,--,--,--,--,0
+8468750,Micki Dupont,1980-04-15,1980,04,15,"Calgary, AB, CAN",CAN,"5' 10""",70,186,D,D,Right,2000,9,9,270,1999-2000,Long Beach Ice Dogs,Regular Season,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8468750,Micki Dupont,1980-04-15,1980,04,15,"Calgary, AB, CAN",CAN,"5' 10""",70,186,D,D,Right,2000,9,9,270,1999-2000,Kamloops Blazers,Playoffs,4,0,2,2,--,17,--,--,--,--,--,--,--,--,0
+8468750,Micki Dupont,1980-04-15,1980,04,15,"Calgary, AB, CAN",CAN,"5' 10""",70,186,D,D,Right,2000,9,9,270,1999-2000,San Diego Gulls,Playoffs,7,2,2,4,--,0,--,--,--,--,--,--,--,--,0
+8468751,Reto Von Arx,1976-09-13,1976,09,13,"Egerkingen, CHE",CHE,"5' 10""",70,179,LW,L,Left,2000,9,10,271,1999-2000,Davos HC Davos,Regular Season,45,19,26,45,--,70,--,--,--,--,--,--,--,--,0
+8468751,Reto Von Arx,1976-09-13,1976,09,13,"Egerkingen, CHE",CHE,"5' 10""",70,179,LW,L,Left,2000,9,10,271,1999-2000,Switzerland,Regular Season,7,1,2,3,--,2,--,--,--,--,--,--,--,--,0
+8468751,Reto Von Arx,1976-09-13,1976,09,13,"Egerkingen, CHE",CHE,"5' 10""",70,179,LW,L,Left,2000,9,10,271,1999-2000,Davos HC Davos,Playoffs,5,2,0,2,--,10,--,--,--,--,--,--,--,--,0
+8468753,Roman Simicek,1971-11-04,1971,11,04,"Ostrava, CZE",CZE,"6' 2""",74,210,C,C,Right,2000,9,12,273,1999-2000,HPK HPK Hameenlinna,Regular Season,23,10,17,27,--,50,--,--,--,--,--,--,--,--,0
+8468753,Roman Simicek,1971-11-04,1971,11,04,"Ostrava, CZE",CZE,"6' 2""",74,210,C,C,Right,2000,9,12,273,1999-2000,HPK HPK Hameenlinna,Playoffs,8,2,4,6,--,10,--,--,--,--,--,--,--,--,0
+8468766,Andrej Nedorost,1980-04-30,1980,04,30,"Trencin, SVK",SVK,"6' 1""",73,199,LW,L,Left,2000,9,25,286,1999-2000,ESC Moskitos Essen,Regular Season,66,7,5,12,--,44,--,--,--,--,--,--,--,--,0
+8468770,Simon Gamache,1981-01-03,1981,01,03,"Thetford Mines, QC, CAN",CAN,"5' 10""",70,186,LW,L,Left,2000,9,29,290,1999-2000,Val-d'Or Foreurs,Regular Season,72,64,79,143,--,74,--,--,--,--,--,--,--,--,0
+8469454,Ilya Kovalchuk,1983-04-15,1983,04,15,"Tver, RUS",RUS,"6' 3""",75,230,RW,R,Right,2001,1,1,1,2000-2001,Spartak Moscow Spartak,Regular Season,40,28,18,46,--,78,--,--,--,--,--,--,--,--,0
+8469454,Ilya Kovalchuk,1983-04-15,1983,04,15,"Tver, RUS",RUS,"6' 3""",75,230,RW,R,Right,2001,1,1,1,2000-2001,Russia,Regular Season,7,4,2,6,--,37,--,--,--,--,--,--,--,--,0
+8469454,Ilya Kovalchuk,1983-04-15,1983,04,15,"Tver, RUS",RUS,"6' 3""",75,230,RW,R,Right,2001,1,1,1,2000-2001,Russia,Regular Season,6,11,4,15,--,26,--,--,--,--,--,--,--,--,0
+8469454,Ilya Kovalchuk,1983-04-15,1983,04,15,"Tver, RUS",RUS,"6' 3""",75,230,RW,R,Right,2001,1,1,1,2000-2001,Spartak Moscow Spartak,Playoffs,12,14,4,18,0,38,--,--,--,--,--,--,--,--,0
+8469455,Jason Spezza,1983-06-13,1983,06,13,"Toronto, ON, CAN",CAN,"6' 3""",75,210,C,C,Right,2001,1,2,2,2000-2001,Mississauga Icedogs,Regular Season,15,7,23,30,--,11,--,--,--,--,--,--,--,--,0
+8469455,Jason Spezza,1983-06-13,1983,06,13,"Toronto, ON, CAN",CAN,"6' 3""",75,210,C,C,Right,2001,1,2,2,2000-2001,Windsor Spitfires,Regular Season,41,36,50,86,--,32,--,--,--,--,--,--,--,--,0
+8469455,Jason Spezza,1983-06-13,1983,06,13,"Toronto, ON, CAN",CAN,"6' 3""",75,210,C,C,Right,2001,1,2,2,2000-2001,Canada,Regular Season,7,3,3,6,--,2,--,--,--,--,--,--,--,--,0
+8469455,Jason Spezza,1983-06-13,1983,06,13,"Toronto, ON, CAN",CAN,"6' 3""",75,210,C,C,Right,2001,1,2,2,2000-2001,Windsor Spitfires,Playoffs,9,4,5,9,--,10,--,--,--,--,--,--,--,--,0
+8469456,Alexander Svitov,1982-11-03,1982,11,03,"Omsk, RUS",RUS,"6' 3""",75,228,C,C,Left,2001,1,3,3,2000-2001,Omsk Avangard Omsk,Regular Season,39,8,6,14,--,115,--,--,--,--,--,--,--,--,0
+8469456,Alexander Svitov,1982-11-03,1982,11,03,"Omsk, RUS",RUS,"6' 3""",75,228,C,C,Left,2001,1,3,3,2000-2001,Russia,Regular Season,6,0,1,1,--,58,--,--,--,--,--,--,--,--,0
+8469456,Alexander Svitov,1982-11-03,1982,11,03,"Omsk, RUS",RUS,"6' 3""",75,228,C,C,Left,2001,1,3,3,2000-2001,Russia,Regular Season,7,3,1,4,--,41,--,--,--,--,--,--,--,--,0
+8469456,Alexander Svitov,1982-11-03,1982,11,03,"Omsk, RUS",RUS,"6' 3""",75,228,C,C,Left,2001,1,3,3,2000-2001,Omsk Avangard Omsk,Playoffs,14,2,1,3,--,34,--,--,--,--,--,--,--,--,0
+8469457,Stephen Weiss,1983-04-03,1983,04,03,"Toronto, ON, CAN",CAN,"5' 11""",71,190,C,C,Left,2001,1,4,4,2000-2001,Plymouth Whalers,Regular Season,62,40,47,87,--,45,--,--,--,--,--,--,--,--,0
+8469457,Stephen Weiss,1983-04-03,1983,04,03,"Toronto, ON, CAN",CAN,"5' 11""",71,190,C,C,Left,2001,1,4,4,2000-2001,Plymouth Whalers,Playoffs,18,7,16,23,--,10,--,--,--,--,--,--,--,--,0
+8469458,Stanislav Chistov,1983-04-17,1983,04,17,"Chelyabinsk, RUS",RUS,"5' 10""",70,193,RW,R,Right,2001,1,5,5,2000-2001,Avangard-VDV Omsk,Regular Season,8,5,4,9,--,2,--,--,--,--,--,--,--,--,0
+8469458,Stanislav Chistov,1983-04-17,1983,04,17,"Chelyabinsk, RUS",RUS,"5' 10""",70,193,RW,R,Right,2001,1,5,5,2000-2001,Russia,Regular Season,7,5,1,6,--,0,--,--,--,--,--,--,--,--,0
+8469458,Stanislav Chistov,1983-04-17,1983,04,17,"Chelyabinsk, RUS",RUS,"5' 10""",70,193,RW,R,Right,2001,1,5,5,2000-2001,Omsk Avangard Omsk,Regular Season,24,4,8,12,--,12,--,--,--,--,--,--,--,--,0
+8469458,Stanislav Chistov,1983-04-17,1983,04,17,"Chelyabinsk, RUS",RUS,"5' 10""",70,193,RW,R,Right,2001,1,5,5,2000-2001,Russia,Regular Season,4,4,2,6,--,0,--,--,--,--,--,--,--,--,0
+8469458,Stanislav Chistov,1983-04-17,1983,04,17,"Chelyabinsk, RUS",RUS,"5' 10""",70,193,RW,R,Right,2001,1,5,5,2000-2001,Omsk Avangard Omsk,Playoffs,5,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,Tps Jr.,Regular Season,26,9,36,45,--,26,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,Tps Turko Tps,Regular Season,21,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,Finland,Regular Season,7,0,3,3,--,8,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,Finland,Regular Season,6,2,3,5,--,6,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,TPS Turku U18,Playoffs,7,2,10,12,0,2,--,--,--,--,--,--,--,--,0
+8469459,Mikko Koivu,1983-03-12,1983,03,12,"Turku, FIN",FIN,"6' 3""",75,215,C,C,Left,2001,1,6,6,2000-2001,Tps Jr.,Playoffs,3,1,1,2,0,6,--,--,--,--,--,--,--,--,0
+8469460,Mike Komisarek,1982-01-19,1982,01,19,"West Islip, NY, USA",USA,"6' 4""",76,235,D,D,Right,2001,1,7,7,2000-2001,U. Of Michigan Wolverines,Regular Season,41,4,12,16,--,77,--,--,--,--,--,--,--,--,0
+8469460,Mike Komisarek,1982-01-19,1982,01,19,"West Islip, NY, USA",USA,"6' 4""",76,235,D,D,Right,2001,1,7,7,2000-2001,United States,Regular Season,7,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469462,Tuomo Ruutu,1983-02-16,1983,02,16,"Vantaa, FIN",FIN,"6' 0""",72,200,LW,L,Left,2001,1,9,9,2000-2001,Jokerit Jr. Jokerit Helsinki Jr.,Regular Season,2,1,0,1,--,0,--,--,--,--,--,--,--,--,0
+8469462,Tuomo Ruutu,1983-02-16,1983,02,16,"Vantaa, FIN",FIN,"6' 0""",72,200,LW,L,Left,2001,1,9,9,2000-2001,Jokerit Jokerit Helsinki,Regular Season,47,11,11,22,--,94,--,--,--,--,--,--,--,--,0
+8469462,Tuomo Ruutu,1983-02-16,1983,02,16,"Vantaa, FIN",FIN,"6' 0""",72,200,LW,L,Left,2001,1,9,9,2000-2001,Finland,Regular Season,7,1,3,4,--,4,--,--,--,--,--,--,--,--,0
+8469462,Tuomo Ruutu,1983-02-16,1983,02,16,"Vantaa, FIN",FIN,"6' 0""",72,200,LW,L,Left,2001,1,9,9,2000-2001,Jokerit Jokerit Helsinki,Playoffs,5,0,0,0,0,4,--,--,--,--,--,--,0,0,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Vastra Frolunda HC Goteborg Jr.,Regular Season,11,3,7,10,--,12,--,--,--,--,--,--,--,--,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Vastra Frolunda HC Goteborg,Regular Season,31,3,2,5,--,6,--,--,--,--,--,--,--,--,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Sweden,Regular Season,7,1,2,3,--,16,--,--,--,--,--,--,--,--,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Sweden,Regular Season,6,3,3,6,--,4,--,--,--,--,--,--,--,--,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Vastra Frolunda HC Goteborg Jr.,Playoffs,4,1,2,3,--,6,--,--,--,--,--,--,--,--,0
+8469464,Fredrik Sjostrom,1983-05-06,1983,05,06,"Fargelanda, SWE",SWE,"6' 1""",73,218,LW,L,Left,2001,1,11,11,2000-2001,Vastra Frolunda HC Goteborg,Playoffs,5,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8469465,Dan Hamhuis,1982-12-13,1982,12,13,"Smithers, BC, CAN",CAN,"6' 1""",73,200,D,D,Left,2001,1,12,12,2000-2001,Prince George Cougars,Regular Season,62,13,47,60,--,125,--,--,--,--,--,--,--,--,0
+8469465,Dan Hamhuis,1982-12-13,1982,12,13,"Smithers, BC, CAN",CAN,"6' 1""",73,200,D,D,Left,2001,1,12,12,2000-2001,Canada,Regular Season,7,0,1,1,--,8,--,--,--,--,--,--,--,--,0
+8469465,Dan Hamhuis,1982-12-13,1982,12,13,"Smithers, BC, CAN",CAN,"6' 1""",73,200,D,D,Left,2001,1,12,12,2000-2001,Prince George Cougars,Playoffs,6,2,3,5,--,15,--,--,--,--,--,--,--,--,0
+8469466,Ales Hemsky,1983-08-13,1983,08,13,"Pardubice, CZE",CZE,"6' 0""",72,185,RW,R,Right,2001,1,13,13,2000-2001,Hull Olympiques,Regular Season,68,36,64,100,--,67,--,--,--,--,--,--,--,--,0
+8469466,Ales Hemsky,1983-08-13,1983,08,13,"Pardubice, CZE",CZE,"6' 0""",72,185,RW,R,Right,2001,1,13,13,2000-2001,Hull Olympiques,Playoffs,5,2,3,5,--,2,--,--,--,--,--,--,--,--,0
+8469467,Chuck Kobasew,1982-04-17,1982,04,17,"Vancouver, BC, CAN",CAN,"6' 0""",72,192,RW,R,Right,2001,1,14,14,2000-2001,Boston College Eagles,Regular Season,43,27,22,49,--,38,--,--,--,--,--,--,--,--,0
+8469469,R.J. Umberger,1982-05-03,1982,05,03,"Pittsburgh, PA, USA",USA,"6' 2""",74,214,C,C,Left,2001,1,16,16,2000-2001,Ohio State U. Buckeyes,Regular Season,32,14,23,37,--,18,--,--,--,--,--,--,--,--,0
+8469469,R.J. Umberger,1982-05-03,1982,05,03,"Pittsburgh, PA, USA",USA,"6' 2""",74,214,C,C,Left,2001,1,16,16,2000-2001,United States,Regular Season,6,1,0,1,--,0,--,--,--,--,--,--,--,--,0
+8469469,R.J. Umberger,1982-05-03,1982,05,03,"Pittsburgh, PA, USA",USA,"6' 2""",74,214,C,C,Left,2001,1,16,16,2000-2001,United States,Regular Season,7,2,2,4,--,2,--,--,--,--,--,--,--,--,0
+8469470,Carlo Colaiacovo,1983-01-27,1983,01,27,"Toronto, ON, CAN",CAN,"6' 1""",73,202,D,D,Left,2001,1,17,17,2000-2001,Erie Otters,Regular Season,62,12,27,39,--,59,--,--,--,--,--,--,--,--,0
+8469470,Carlo Colaiacovo,1983-01-27,1983,01,27,"Toronto, ON, CAN",CAN,"6' 1""",73,202,D,D,Left,2001,1,17,17,2000-2001,Erie Otters,Playoffs,14,4,7,11,--,16,--,--,--,--,--,--,--,--,0
+8469472,Shaone Morrisonn,1982-12-23,1982,12,23,"Vancouver, BC, CAN",CAN,"6' 4""",76,210,D,D,Left,2001,1,19,19,2000-2001,Kamloops Blazers,Regular Season,61,13,25,38,--,132,--,--,--,--,--,--,--,--,0
+8469472,Shaone Morrisonn,1982-12-23,1982,12,23,"Vancouver, BC, CAN",CAN,"6' 4""",76,210,D,D,Left,2001,1,19,19,2000-2001,Kamloops Blazers,Playoffs,4,0,0,0,--,6,--,--,--,--,--,--,--,--,0
+8469473,Marcel Goc,1983-08-24,1983,08,24,"Calw, DEU",DEU,"6' 1""",73,197,C,C,Left,2001,1,20,20,2000-2001,Schwenninger Wild Wings,Regular Season,58,13,28,41,--,12,--,--,--,--,--,--,--,--,0
+8469473,Marcel Goc,1983-08-24,1983,08,24,"Calw, DEU",DEU,"6' 1""",73,197,C,C,Left,2001,1,20,20,2000-2001,Germany,Regular Season,5,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469473,Marcel Goc,1983-08-24,1983,08,24,"Calw, DEU",DEU,"6' 1""",73,197,C,C,Left,2001,1,20,20,2000-2001,Germany,Regular Season,6,2,4,6,--,0,--,--,--,--,--,--,--,--,0
+8469473,Marcel Goc,1983-08-24,1983,08,24,"Calw, DEU",DEU,"6' 1""",73,197,C,C,Left,2001,1,20,20,2000-2001,Germany,Regular Season,7,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8469474,Colby Armstrong,1982-11-23,1982,11,23,"Lloydminster, SK, CAN",CAN,"6' 2""",74,185,RW,R,Right,2001,1,21,21,2000-2001,Red Deer Rebels,Regular Season,72,36,42,78,--,156,--,--,--,--,--,--,--,--,0
+8469474,Colby Armstrong,1982-11-23,1982,11,23,"Lloydminster, SK, CAN",CAN,"6' 2""",74,185,RW,R,Right,2001,1,21,21,2000-2001,Red Deer Rebels,Regular Season,4,0,1,1,--,12,--,--,--,--,--,--,--,--,0
+8469474,Colby Armstrong,1982-11-23,1982,11,23,"Lloydminster, SK, CAN",CAN,"6' 2""",74,185,RW,R,Right,2001,1,21,21,2000-2001,Red Deer Rebels,Playoffs,21,6,6,12,--,29,--,--,--,--,--,--,--,--,0
+8469474,Colby Armstrong,1982-11-23,1982,11,23,"Lloydminster, SK, CAN",CAN,"6' 2""",74,185,RW,R,Right,2001,1,21,21,2000-2001,Red Deer Rebels,Playoffs,4,0,1,1,--,12,--,--,--,--,--,--,--,--,0
+8469475,Jiri Novotny,1983-08-12,1983,08,12,"Pelhrimov, CZE",CZE,"6' 3""",75,204,C,C,Right,2001,1,22,22,2000-2001,C. Budejovice Jr. HC Ceske Budejovice Jr.,Regular Season,33,10,10,20,--,--,--,--,--,--,--,--,--,--,0
+8469475,Jiri Novotny,1983-08-12,1983,08,12,"Pelhrimov, CZE",CZE,"6' 3""",75,204,C,C,Right,2001,1,22,22,2000-2001,Rebel Havlickuv Brod,Regular Season,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469476,Tim Gleason,1983-01-29,1983,01,29,"Clawson, MI, USA",USA,"6' 0""",72,217,D,D,Left,2001,1,23,23,2000-2001,Windsor Spitfires,Regular Season,47,8,28,36,--,124,--,--,--,--,--,--,--,--,0
+8469476,Tim Gleason,1983-01-29,1983,01,29,"Clawson, MI, USA",USA,"6' 0""",72,217,D,D,Left,2001,1,23,23,2000-2001,United States,Regular Season,7,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469476,Tim Gleason,1983-01-29,1983,01,29,"Clawson, MI, USA",USA,"6' 0""",72,217,D,D,Left,2001,1,23,23,2000-2001,Windsor Spitfires,Playoffs,9,1,2,3,--,23,--,--,--,--,--,--,--,--,0
+8469477,Lukas Krajicek,1983-03-11,1983,03,11,"Prostejov, CZE",CZE,"6' 3""",75,205,D,D,Left,2001,1,24,24,2000-2001,Peterborough Petes,Regular Season,61,8,27,35,--,53,--,--,--,--,--,--,--,--,0
+8469477,Lukas Krajicek,1983-03-11,1983,03,11,"Prostejov, CZE",CZE,"6' 3""",75,205,D,D,Left,2001,1,24,24,2000-2001,Peterborough Petes,Playoffs,7,0,5,5,--,0,--,--,--,--,--,--,--,--,0
+8469478,Alexander Perezhogin,1983-08-10,1983,08,10,"Ust-Kamenogorsk, KAZ",KAZ,"6' 0""",72,211,RW,R,Left,2001,1,25,25,2000-2001,Avangard-VDV Omsk,Regular Season,41,47,24,71,--,40,--,--,--,--,--,--,--,--,0
+8469478,Alexander Perezhogin,1983-08-10,1983,08,10,"Ust-Kamenogorsk, KAZ",KAZ,"6' 0""",72,211,RW,R,Left,2001,1,25,25,2000-2001,Russia,Regular Season,7,7,4,11,--,4,--,--,--,--,--,--,--,--,0
+8469478,Alexander Perezhogin,1983-08-10,1983,08,10,"Ust-Kamenogorsk, KAZ",KAZ,"6' 0""",72,211,RW,R,Left,2001,1,25,25,2000-2001,Russia,Regular Season,6,4,3,7,--,0,--,--,--,--,--,--,--,--,0
+8469478,Alexander Perezhogin,1983-08-10,1983,08,10,"Ust-Kamenogorsk, KAZ",KAZ,"6' 0""",72,211,RW,R,Left,2001,1,25,25,2000-2001,Omsk Avangard Omsk,Playoffs,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469480,Jeff Woywitka,1983-09-01,1983,09,01,"Vermilion, AB, CAN",CAN,"6' 3""",75,227,D,D,Left,2001,1,27,27,2000-2001,Red Deer Rebels,Regular Season,72,7,28,35,--,113,--,--,--,--,--,--,--,--,0
+8469480,Jeff Woywitka,1983-09-01,1983,09,01,"Vermilion, AB, CAN",CAN,"6' 3""",75,227,D,D,Left,2001,1,27,27,2000-2001,Red Deer Rebels,Regular Season,4,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469480,Jeff Woywitka,1983-09-01,1983,09,01,"Vermilion, AB, CAN",CAN,"6' 3""",75,227,D,D,Left,2001,1,27,27,2000-2001,Red Deer Rebels,Playoffs,22,2,8,10,--,25,--,--,--,--,--,--,--,--,0
+8469480,Jeff Woywitka,1983-09-01,1983,09,01,"Vermilion, AB, CAN",CAN,"6' 3""",75,227,D,D,Left,2001,1,27,27,2000-2001,Red Deer Rebels,Playoffs,4,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469483,David Steckel,1982-03-15,1982,03,15,"Milwaukee, WI, USA",USA,"6' 6""",78,215,C,C,Left,2001,1,30,30,2000-2001,Ohio State U. Buckeyes,Regular Season,33,17,18,35,--,80,--,--,--,--,--,--,--,--,0
+8469483,David Steckel,1982-03-15,1982,03,15,"Milwaukee, WI, USA",USA,"6' 6""",78,215,C,C,Left,2001,1,30,30,2000-2001,United States,Regular Season,7,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8469484,Matthew Spiller,1983-02-07,1983,02,07,"Daysland, AB, CAN",CAN,"6' 5""",77,233,D,D,Left,2001,2,1,31,2000-2001,Seattle Thunderbirds,Regular Season,71,4,7,11,--,174,--,--,--,--,--,--,--,--,0
+8469484,Matthew Spiller,1983-02-07,1983,02,07,"Daysland, AB, CAN",CAN,"6' 5""",77,233,D,D,Left,2001,2,1,31,2000-2001,Seattle Thunderbirds,Playoffs,9,1,0,1,1,22,0,--,0,--,0,--,--,--,--
+8469485,Derek Roy,1983-05-04,1983,05,04,"Ottawa, ON, CAN",CAN,"5' 9""",69,184,C,C,Left,2001,2,2,32,2000-2001,Kitchener Rangers,Regular Season,65,42,39,81,--,114,--,--,--,--,--,--,--,--,0
+8469486,Timofei Shishkanov,1983-06-10,1983,06,10,"Moscow, RUS",RUS,"6' 1""",73,213,RW,R,Right,2001,2,3,33,2000-2001,Russia,Regular Season,7,1,4,5,--,6,--,--,--,--,--,--,--,--,0
+8469486,Timofei Shishkanov,1983-06-10,1983,06,10,"Moscow, RUS",RUS,"6' 1""",73,213,RW,R,Right,2001,2,3,33,2000-2001,Russia,Regular Season,6,2,2,4,--,0,--,--,--,--,--,--,--,--,0
+8469486,Timofei Shishkanov,1983-06-10,1983,06,10,"Moscow, RUS",RUS,"6' 1""",73,213,RW,R,Right,2001,2,3,33,2000-2001,Russia,Regular Season,4,1,2,3,--,4,--,--,--,--,--,--,--,--,0
+8469488,Mark Popovic,1982-10-11,1982,10,11,"Stoney Creek, ON, CAN",CAN,"6' 1""",73,205,D,D,Left,2001,2,5,35,2000-2001,Toronto St. Michael's Majors,Regular Season,61,7,35,42,--,54,--,--,--,--,--,--,--,--,0
+8469488,Mark Popovic,1982-10-11,1982,10,11,"Stoney Creek, ON, CAN",CAN,"6' 1""",73,205,D,D,Left,2001,2,5,35,2000-2001,Canada,Regular Season,7,0,2,2,--,6,--,--,--,--,--,--,--,--,0
+8469488,Mark Popovic,1982-10-11,1982,10,11,"Stoney Creek, ON, CAN",CAN,"6' 1""",73,205,D,D,Left,2001,2,5,35,2000-2001,Toronto St. Michael's Majors,Playoffs,18,3,5,8,--,22,--,--,--,--,--,--,--,--,0
+8469489,Duncan Milroy,1983-02-08,1983,02,08,"Edmonton, AB, CAN",CAN,"6' 1""",73,196,RW,R,Right,2001,2,7,37,2000-2001,Swift Current Broncos,Regular Season,68,38,54,92,--,51,--,--,--,--,--,--,--,--,0
+8469489,Duncan Milroy,1983-02-08,1983,02,08,"Edmonton, AB, CAN",CAN,"6' 1""",73,196,RW,R,Right,2001,2,7,37,2000-2001,Swift Current Broncos,Playoffs,19,9,12,21,--,6,--,--,--,--,--,--,--,--,0
+8469490,Tim Jackman,1981-11-14,1981,11,14,"Minot, ND, USA",USA,"6' 2""",74,225,RW,R,Right,2001,2,8,38,2000-2001,Minnesota State-Mankato Mavericks,Regular Season,37,11,14,25,--,92,--,--,--,--,--,--,--,--,0
+8469491,Karel Pilar,1977-12-23,1977,12,23,"Prague, CZE",CZE,"6' 3""",75,207,D,D,Right,2001,2,9,39,2000-2001,HC Chemopetrol Litvinov,Regular Season,52,12,26,38,--,52,--,--,--,--,--,--,--,--,0
+8469491,Karel Pilar,1977-12-23,1977,12,23,"Prague, CZE",CZE,"6' 3""",75,207,D,D,Right,2001,2,9,39,2000-2001,Czech Republic,Regular Season,9,0,0,0,--,6,--,--,--,--,--,--,--,--,0
+8469491,Karel Pilar,1977-12-23,1977,12,23,"Prague, CZE",CZE,"6' 3""",75,207,D,D,Right,2001,2,9,39,2000-2001,HC Chemopetrol Litvinov,Playoffs,4,1,1,2,--,25,--,--,--,--,--,--,--,--,0
+8469492,Fedor Tyutin,1983-07-19,1983,07,19,"Izhevsk, RUS",RUS,"6' 2""",74,221,D,D,Left,2001,2,10,40,2000-2001,St. Petersburg Ska St. Petersburg,Regular Season,34,2,4,6,--,20,--,--,--,--,--,--,--,--,0
+8469492,Fedor Tyutin,1983-07-19,1983,07,19,"Izhevsk, RUS",RUS,"6' 2""",74,221,D,D,Left,2001,2,10,40,2000-2001,Russia,Regular Season,6,1,4,5,--,18,--,--,--,--,--,--,--,--,0
+8469495,Doug Lynch,1983-04-04,1983,04,04,"N. Vancouver, BC, CAN",CAN,"6' 3""",75,214,D,D,Left,2001,2,13,43,2000-2001,Red Deer Rebels,Regular Season,72,12,37,49,--,181,--,--,--,--,--,--,--,--,0
+8469495,Doug Lynch,1983-04-04,1983,04,04,"N. Vancouver, BC, CAN",CAN,"6' 3""",75,214,D,D,Left,2001,2,13,43,2000-2001,Red Deer Rebels,Regular Season,4,1,2,3,--,11,--,--,--,--,--,--,--,--,0
+8469495,Doug Lynch,1983-04-04,1983,04,04,"N. Vancouver, BC, CAN",CAN,"6' 3""",75,214,D,D,Left,2001,2,13,43,2000-2001,Red Deer Rebels,Playoffs,21,1,9,10,--,30,--,--,--,--,--,--,--,--,0
+8469495,Doug Lynch,1983-04-04,1983,04,04,"N. Vancouver, BC, CAN",CAN,"6' 3""",75,214,D,D,Left,2001,2,13,43,2000-2001,Red Deer Rebels,Playoffs,4,1,2,3,--,11,--,--,--,--,--,--,--,--,0
+8469499,Tuomas Pihlman,1982-11-13,1982,11,13,"Espoo, FIN",FIN,"6' 2""",74,215,LW,L,Left,2001,2,18,48,2000-2001,JYP Jyvaskyla Jr.,Regular Season,1,1,0,1,--,2,--,--,--,--,--,--,--,--,0
+8469499,Tuomas Pihlman,1982-11-13,1982,11,13,"Espoo, FIN",FIN,"6' 2""",74,215,LW,L,Left,2001,2,18,48,2000-2001,Jyp Jyvaskyla,Regular Season,47,3,6,9,--,59,--,--,--,--,--,--,--,--,0
+8469499,Tuomas Pihlman,1982-11-13,1982,11,13,"Espoo, FIN",FIN,"6' 2""",74,215,LW,L,Left,2001,2,18,48,2000-2001,Finland,Regular Season,7,0,0,0,--,6,--,--,--,--,--,--,--,--,0
+8469499,Tuomas Pihlman,1982-11-13,1982,11,13,"Espoo, FIN",FIN,"6' 2""",74,215,LW,L,Left,2001,2,18,48,2000-2001,Finland,Regular Season,7,2,3,5,--,8,--,--,--,--,--,--,--,--,0
+8469499,Tuomas Pihlman,1982-11-13,1982,11,13,"Espoo, FIN",FIN,"6' 2""",74,215,LW,L,Left,2001,2,18,48,2000-2001,JYP Jyvaskyla Jr.,Playoffs,6,2,4,6,0,4,--,--,--,--,--,--,--,--,0
+8469500,Michael Cammalleri,1982-06-08,1982,06,08,"Toronto, ON, CAN",CAN,"5' 9""",69,185,LW,L,Left,2001,2,19,49,2000-2001,U. Of Michigan Wolverines,Regular Season,42,29,32,61,--,24,--,--,--,--,--,--,--,--,0
+8469500,Michael Cammalleri,1982-06-08,1982,06,08,"Toronto, ON, CAN",CAN,"5' 9""",69,185,LW,L,Left,2001,2,19,49,2000-2001,Canada,Regular Season,7,4,2,6,--,2,--,--,--,--,--,--,--,--,0
+8469501,Chris Thorburn,1983-06-03,1983,06,03,"Sault Ste. Marie, ON, CAN",CAN,"6' 3""",75,235,RW,R,Right,2001,2,20,50,2000-2001,North Bay Centennials,Regular Season,66,22,32,54,--,64,--,--,--,--,--,--,--,--,0
+8469501,Chris Thorburn,1983-06-03,1983,06,03,"Sault Ste. Marie, ON, CAN",CAN,"6' 3""",75,235,RW,R,Right,2001,2,20,50,2000-2001,North Bay Centennials,Playoffs,4,0,1,1,--,9,--,--,--,--,--,--,--,--,0
+8469502,Jaroslav Bednar,1976-11-09,1976,11,09,"Prague, CZE",CZE,"6' 0""",72,198,C,C,Right,2001,2,21,51,2000-2001,Hifk Helsinki,Regular Season,56,32,28,60,--,51,--,--,--,--,--,--,--,--,0
+8469502,Jaroslav Bednar,1976-11-09,1976,11,09,"Prague, CZE",CZE,"6' 0""",72,198,C,C,Right,2001,2,21,51,2000-2001,Hifk Helsinki,Playoffs,5,3,1,4,--,0,--,--,--,--,--,--,--,--,0
+8469505,Noah Welch,1982-08-26,1982,08,26,"Brighton, MA, USA",USA,"6' 4""",76,215,D,D,Left,2001,2,24,54,2000-2001,St. Sebastian's Arrows,Regular Season,30,11,20,31,--,37,--,--,--,--,--,--,--,--,0
+8469506,Jason Pominville,1982-11-30,1982,11,30,"Repentigny, QC, CAN",CAN,"6' 0""",72,181,RW,R,Right,2001,2,25,55,2000-2001,Shawinigan Cataractes,Regular Season,71,46,67,113,--,24,--,--,--,--,--,--,--,--,0
+8469506,Jason Pominville,1982-11-30,1982,11,30,"Repentigny, QC, CAN",CAN,"6' 0""",72,181,RW,R,Right,2001,2,25,55,2000-2001,Shawinigan Cataractes,Playoffs,10,6,6,12,--,0,--,--,--,--,--,--,--,--,0
+8469508,Jay McClement,1983-03-02,1983,03,02,"Kingston, ON, CAN",CAN,"6' 1""",73,205,C,C,Left,2001,2,27,57,2000-2001,Brampton Battalion,Regular Season,66,30,19,49,--,61,--,--,--,--,--,--,--,--,0
+8469508,Jay McClement,1983-03-02,1983,03,02,"Kingston, ON, CAN",CAN,"6' 1""",73,205,C,C,Left,2001,2,27,57,2000-2001,Brampton Battalion,Playoffs,9,4,2,6,--,10,--,--,--,--,--,--,--,--,0
+8469509,Nathan Paetsch,1983-03-30,1983,03,30,"Leroy, SK, CAN",CAN,"6' 1""",73,198,D,D,Left,2003,7,5,202,2002-2003,Moose Jaw Warriors,Regular Season,59,15,39,54,5,81,8,--,1,--,--,--,--,--,0
+8469509,Nathan Paetsch,1983-03-30,1983,03,30,"Leroy, SK, CAN",CAN,"6' 1""",73,198,D,D,Left,2003,7,5,202,2002-2003,Canada,Regular Season,6,1,0,1,--,4,--,--,--,--,--,--,--,--,0
+8469509,Nathan Paetsch,1983-03-30,1983,03,30,"Leroy, SK, CAN",CAN,"6' 1""",73,198,D,D,Left,2003,7,5,202,2002-2003,Moose Jaw Warriors,Playoffs,13,3,10,13,--,6,1,--,0,--,--,--,--,--,0
+8469510,Matt Keith,1983-04-11,1983,04,11,"Edmonton, AB, CAN",CAN,"6' 2""",74,200,RW,R,Right,2001,2,29,59,2000-2001,Spokane Chiefs,Regular Season,33,13,14,27,--,63,--,--,--,--,--,--,--,--,0
+8469510,Matt Keith,1983-04-11,1983,04,11,"Edmonton, AB, CAN",CAN,"6' 2""",74,200,RW,R,Right,2001,2,29,59,2000-2001,Spokane Chiefs,Playoffs,12,1,3,4,--,14,--,--,--,--,--,--,--,--,0
+8469515,Tomas Malec,1982-05-13,1982,05,13,"Skalica, SVK",SVK,"6' 2""",74,215,D,D,Left,2001,3,1,64,2000-2001,Rimouski Oceanic,Regular Season,64,13,50,63,--,198,--,--,--,--,--,--,--,--,0
+8469515,Tomas Malec,1982-05-13,1982,05,13,"Skalica, SVK",SVK,"6' 2""",74,215,D,D,Left,2001,3,1,64,2000-2001,Slovakia,Regular Season,7,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8469515,Tomas Malec,1982-05-13,1982,05,13,"Skalica, SVK",SVK,"6' 2""",74,215,D,D,Left,2001,3,1,64,2000-2001,Rimouski Oceanic,Playoffs,11,0,11,11,--,26,--,--,--,--,--,--,--,--,0
+8469516,Brendan Bell,1983-03-31,1983,03,31,"Ottawa, ON, CAN",CAN,"6' 2""",74,205,D,D,Left,2001,3,2,65,2000-2001,Ottawa 67's,Regular Season,68,7,32,39,--,59,--,--,--,--,--,--,--,--,0
+8469516,Brendan Bell,1983-03-31,1983,03,31,"Ottawa, ON, CAN",CAN,"6' 2""",74,205,D,D,Left,2001,3,2,65,2000-2001,Ottawa 67's,Playoffs,20,1,11,12,--,22,--,--,--,--,--,--,--,--,0
+8469518,Grant McNeill,1983-06-08,1983,06,08,"Vermilion, AB, CAN",CAN,"6' 2""",74,214,D,D,Left,2001,3,5,68,2000-2001,Prince Albert Raiders,Regular Season,61,2,6,8,--,280,--,--,--,--,--,--,--,--,0
+8469521,Tomas Plekanec,1982-10-31,1982,10,31,"Kladno, CZE",CZE,"5' 11""",71,196,C,C,Left,2001,3,8,71,2000-2001,HC Vagnerplast Kladno,Regular Season,47,9,9,18,--,24,--,--,--,--,--,--,--,--,0
+8469521,Tomas Plekanec,1982-10-31,1982,10,31,"Kladno, CZE",CZE,"5' 11""",71,196,C,C,Left,2001,3,8,71,2000-2001,HC Kladno Jr.,Regular Season,9,6,4,10,--,4,--,--,--,--,--,--,--,--,0
+8469521,Tomas Plekanec,1982-10-31,1982,10,31,"Kladno, CZE",CZE,"5' 11""",71,196,C,C,Left,2001,3,8,71,2000-2001,Czech Republic,Regular Season,7,1,1,2,--,6,--,--,--,--,--,--,--,--,0
+8469522,Brandon Nolan,1983-07-18,1983,07,18,"St. Catharines, ON, CAN",CAN,"6' 1""",73,192,C,C,Left,2003,4,10,111,2002-2003,Oshawa Generals,Regular Season,68,36,52,88,1,57,13,--,2,--,--,--,--,--,0
+8469522,Brandon Nolan,1983-07-18,1983,07,18,"St. Catharines, ON, CAN",CAN,"6' 1""",73,192,C,C,Left,2003,4,10,111,2002-2003,Oshawa Generals,Playoffs,13,10,7,17,-5,4,3,--,0,--,--,--,--,--,0
+8469528,Garth Murray,1982-09-17,1982,09,17,"Regina, SK, CAN",CAN,"6' 2""",74,210,C,C,Left,2001,3,16,79,2000-2001,Regina Pats,Regular Season,72,28,16,44,--,183,--,--,--,--,--,--,--,--,0
+8469528,Garth Murray,1982-09-17,1982,09,17,"Regina, SK, CAN",CAN,"6' 2""",74,210,C,C,Left,2001,3,16,79,2000-2001,Regina Pats,Playoffs,6,1,1,2,--,10,--,--,--,--,--,--,--,--,0
+8469531,Jay Harrison,1982-11-03,1982,11,03,"Oshawa, ON, CAN",CAN,"6' 4""",76,222,D,D,Left,2001,3,19,82,2000-2001,Brampton Battalion,Regular Season,53,4,15,19,--,112,--,--,--,--,--,--,--,--,0
+8469531,Jay Harrison,1982-11-03,1982,11,03,"Oshawa, ON, CAN",CAN,"6' 4""",76,222,D,D,Left,2001,3,19,82,2000-2001,Canada,Regular Season,7,0,0,0,--,2,--,--,--,--,--,--,--,--,0
+8469531,Jay Harrison,1982-11-03,1982,11,03,"Oshawa, ON, CAN",CAN,"6' 4""",76,222,D,D,Left,2001,3,19,82,2000-2001,Brampton Battalion,Playoffs,9,1,1,2,--,17,--,--,--,--,--,--,--,--,0
+8469534,Aaron Johnson,1983-04-30,1983,04,30,"Port Hawkesbury, NS, CAN",CAN,"6' 1""",73,204,D,D,Left,2001,3,22,85,2000-2001,Rimouski Oceanic,Regular Season,64,12,41,53,--,128,--,--,--,--,--,--,--,--,0
+8469534,Aaron Johnson,1983-04-30,1983,04,30,"Port Hawkesbury, NS, CAN",CAN,"6' 1""",73,204,D,D,Left,2001,3,22,85,2000-2001,Rimouski Oceanic,Playoffs,11,2,4,6,--,35,--,--,--,--,--,--,--,--,0
+8469535,Drew Fata,1983-07-28,1983,07,28,"Sault Ste. Marie, ON, CAN",CAN,"6' 1""",73,209,D,D,Left,2001,3,23,86,2000-2001,Toronto St. Michael's Majors,Regular Season,58,5,15,20,--,134,--,--,--,--,--,--,--,--,0
+8469535,Drew Fata,1983-07-28,1983,07,28,"Sault Ste. Marie, ON, CAN",CAN,"6' 1""",73,209,D,D,Left,2001,3,23,86,2000-2001,Toronto St. Michael's Majors,Playoffs,18,1,3,4,--,26,--,--,--,--,--,--,--,--,0
+8469539,Owen Fussey,1983-04-02,1983,04,02,"Winnipeg, MB, CAN",CAN,"6' 0""",72,195,RW,R,Left,2001,3,27,90,2000-2001,Calgary Hitmen,Regular Season,48,15,10,25,--,33,--,--,--,--,--,--,--,--,0
+8469539,Owen Fussey,1983-04-02,1983,04,02,"Winnipeg, MB, CAN",CAN,"6' 0""",72,195,RW,R,Left,2001,3,27,90,2000-2001,Calgary Hitmen,Playoffs,12,2,1,3,--,6,--,--,--,--,--,--,--,--,0
+8469542,Stephane Veilleux,1981-11-16,1981,11,16,"Beauceville, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2001,3,30,93,2000-2001,Val-d'Or Foreurs,Regular Season,68,48,67,115,--,90,--,--,--,--,--,--,--,--,0
+8469542,Stephane Veilleux,1981-11-16,1981,11,16,"Beauceville, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2001,3,30,93,2000-2001,Val-d'Or Foreurs,Regular Season,5,3,3,6,--,6,--,--,--,--,--,--,--,--,0
+8469542,Stephane Veilleux,1981-11-16,1981,11,16,"Beauceville, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2001,3,30,93,2000-2001,Val-d'Or Foreurs,Playoffs,21,15,18,33,--,42,--,--,--,--,--,--,--,--,0
+8469542,Stephane Veilleux,1981-11-16,1981,11,16,"Beauceville, QC, CAN",CAN,"6' 1""",73,200,LW,L,Left,2001,3,30,93,2000-2001,Val-d'Or Foreurs,Playoffs,5,3,3,6,--,6,--,--,--,--,--,--,--,--,0
+8469543,Evgeny Artyukhin,1983-04-04,1983,04,04,"Moscow, RUS",RUS,"6' 4""",76,255,RW,R,Left,2001,3,31,94,2000-2001,Vityaz Podolsk,Regular Season,24,0,1,1,--,14,--,--,--,--,--,--,--,--,0
+8469543,Evgeny Artyukhin,1983-04-04,1983,04,04,"Moscow, RUS",RUS,"6' 4""",76,255,RW,R,Left,2001,3,31,94,2000-2001,Russia,Regular Season,6,1,1,2,--,4,--,--,--,--,--,--,--,--,0
+8469544,Patrick Sharp,1981-12-27,1981,12,27,"Winnipeg, MB, CAN",CAN,"6' 1""",73,200,LW,L,Right,2001,3,32,95,2000-2001,U. Of Vermont Catamounts,Regular Season,34,12,15,27,--,36,--,--,--,--,--,--,--,--,0
+8469546,Danny Bois,1983-06-01,1983,06,01,"Thunder Bay, ON, CAN",CAN,"6' 0""",72,196,RW,R,Right,2001,4,1,97,2000-2001,London Knights,Regular Season,66,21,16,37,--,218,--,--,--,--,--,--,--,--,0
+8469546,Danny Bois,1983-06-01,1983,06,01,"Thunder Bay, ON, CAN",CAN,"6' 0""",72,196,RW,R,Right,2001,4,1,97,2000-2001,London Knights,Playoffs,5,2,1,3,--,19,--,--,--,--,--,--,--,--,0
+8469551,Timo Parssinen,1977-01-19,1977,01,19,"Lohja, FIN",FIN,"5' 10""",70,196,LW,L,Left,2001,4,6,102,2000-2001,HPK HPK Hameenlinna,Regular Season,54,18,31,49,--,50,--,--,--,--,--,--,--,--,0
+8469551,Timo Parssinen,1977-01-19,1977,01,19,"Lohja, FIN",FIN,"5' 10""",70,196,LW,L,Left,2001,4,6,102,2000-2001,Finland,Regular Season,9,2,6,8,--,8,--,--,--,--,--,--,--,--,0
+8469552,Tony Virta,1972-06-28,1972,06,28,"Hameenlinna, FIN",FIN,"5' 10""",70,187,RW,R,Left,2001,4,7,103,2000-2001,Tps Turko Tps,Regular Season,56,27,32,59,--,24,--,--,--,--,--,--,--,--,0
+8469552,Tony Virta,1972-06-28,1972,06,28,"Hameenlinna, FIN",FIN,"5' 10""",70,187,RW,R,Left,2001,4,7,103,2000-2001,Finland,Regular Season,9,2,6,8,--,2,--,--,--,--,--,--,--,--,0
+8469552,Tony Virta,1972-06-28,1972,06,28,"Hameenlinna, FIN",FIN,"5' 10""",70,187,RW,R,Left,2001,4,7,103,2000-2001,Tps Turko Tps,Playoffs,10,2,5,7,0,6,--,--,--,--,--,--,--,--,0
+8469555,Christian Ehrhoff,1982-07-06,1982,07,06,"Moers, DEU",DEU,"6' 2""",74,201,D,D,Left,2001,4,10,106,2000-2001,EV Duisburg,Regular Season,6,1,2,3,--,12,--,--,--,--,--,--,--,--,0
+8469555,Christian Ehrhoff,1982-07-06,1982,07,06,"Moers, DEU",DEU,"6' 2""",74,201,D,D,Left,2001,4,10,106,2000-2001,Krefeld Pinguine,Regular Season,58,3,11,14,--,73,--,--,--,--,--,--,--,--,0
+8469555,Christian Ehrhoff,1982-07-06,1982,07,06,"Moers, DEU",DEU,"6' 2""",74,201,D,D,Left,2001,4,10,106,2000-2001,Germany,Regular Season,5,1,3,4,--,6,--,--,--,--,--,--,--,--,0
+8469557,Tomi Maki,1983-08-19,1983,08,19,"Helsinki, FIN",FIN,"5' 11""",71,193,RW,R,Left,2001,4,12,108,2000-2001,Jokerit Helsinki U18,Regular Season,10,4,10,14,--,4,--,--,--,--,--,--,--,--,0
+8469557,Tomi Maki,1983-08-19,1983,08,19,"Helsinki, FIN",FIN,"5' 11""",71,193,RW,R,Left,2001,4,12,108,2000-2001,Jokerit Jr. Jokerit Helsinki Jr.,Regular Season,39,7,8,15,--,10,--,--,--,--,--,--,--,--,0
+8469557,Tomi Maki,1983-08-19,1983,08,19,"Helsinki, FIN",FIN,"5' 11""",71,193,RW,R,Left,2001,4,12,108,2000-2001,Finland,Regular Season,6,1,0,1,--,8,--,--,--,--,--,--,--,--,0
+8469557,Tomi Maki,1983-08-19,1983,08,19,"Helsinki, FIN",FIN,"5' 11""",71,193,RW,R,Left,2001,4,12,108,2000-2001,Jokerit Helsinki U18,Playoffs,6,4,3,7,0,0,--,--,--,--,--,--,--,--,0
+8469557,Tomi Maki,1983-08-19,1983,08,19,"Helsinki, FIN",FIN,"5' 11""",71,193,RW,R,Left,2001,4,12,108,2000-2001,Jokerit Jr. Jokerit Helsinki Jr.,Playoffs,2,0,0,0,0,2,--,--,--,--,--,--,0,0,0
+8469558,Martti Jarventie,1976-04-04,1976,04,04,"Tampere, FIN",FIN,"5' 11""",71,196,D,D,Left,2001,4,13,109,2000-2001,Tps Turko Tps,Regular Season,56,5,14,19,--,71,--,--,--,--,--,--,--,--,0
+8469558,Martti Jarventie,1976-04-04,1976,04,04,"Tampere, FIN",FIN,"5' 11""",71,196,D,D,Left,2001,4,13,109,2000-2001,Tps Turko Tps,Playoffs,10,1,2,3,0,4,--,--,--,--,--,--,--,--,0
+8469561,Bryce Lampman,1982-08-31,1982,08,31,"Rochester, MN, USA",USA,"6' 1""",73,205,D,D,Left,2001,4,17,113,2000-2001,Omaha Lancers,Regular Season,55,10,11,21,--,77,--,--,--,--,--,--,--,--,0
+8469561,Bryce Lampman,1982-08-31,1982,08,31,"Rochester, MN, USA",USA,"6' 1""",73,205,D,D,Left,2001,4,17,113,2000-2001,Omaha Lancers,Playoffs,12,1,4,5,--,12,--,--,--,--,--,--,--,--,0
+8469564,Richard Petiot,1982-08-20,1982,08,20,"Daysland, AB, CAN",CAN,"6' 3""",75,215,D,D,Left,2001,4,20,116,2000-2001,Camrose Camrose Kodiaks,Regular Season,55,8,16,24,--,81,--,--,--,--,--,--,--,--,0
+8469564,Richard Petiot,1982-08-20,1982,08,20,"Daysland, AB, CAN",CAN,"6' 3""",75,215,D,D,Left,2001,4,20,116,2000-2001,Camrose Kodiaks,Regular Season,3,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8469564,Richard Petiot,1982-08-20,1982,08,20,"Daysland, AB, CAN",CAN,"6' 3""",75,215,D,D,Left,2001,4,20,116,2000-2001,Camrose Camrose Kodiaks,Playoffs,8,2,1,3,--,8,--,--,--,--,--,--,--,--,0
+8469564,Richard Petiot,1982-08-20,1982,08,20,"Daysland, AB, CAN",CAN,"6' 3""",75,215,D,D,Left,2001,4,20,116,2000-2001,Camrose Kodiaks,Playoffs,3,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8469575,Christoph Schubert,1982-02-05,1982,02,05,"Munich, DEU",DEU,"6' 3""",75,230,D,D,Left,2001,4,31,127,2000-2001,Munchen Barons,Regular Season,55,6,3,9,--,80,--,--,--,--,--,--,--,--,0
+8469575,Christoph Schubert,1982-02-05,1982,02,05,"Munich, DEU",DEU,"6' 3""",75,230,D,D,Left,2001,4,31,127,2000-2001,Germany,Regular Season,5,1,1,2,--,10,--,--,--,--,--,--,--,--,0
+8469575,Christoph Schubert,1982-02-05,1982,02,05,"Munich, DEU",DEU,"6' 3""",75,230,D,D,Left,2001,4,31,127,2000-2001,Germany,Regular Season,1,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469575,Christoph Schubert,1982-02-05,1982,02,05,"Munich, DEU",DEU,"6' 3""",75,230,D,D,Left,2001,4,31,127,2000-2001,Germany,Regular Season,3,0,0,0,--,0,--,--,--,--,--,--,--,--,0
+8469575,Christoph Schubert,1982-02-05,1982,02,05,"Munich, DEU",DEU,"6' 3""",75,230,D,D,Left,2001,4,31,127,2000-2001,Munchen Barons,Playoffs,10,0,2,2,--,27,--,--,--,--,--,--,--,--,0
+8469581,Kyle Wellwood,1983-05-16,1983,05,16,"Windsor, ON, CAN",CAN,"5' 10""",70,181,C,C,Right,2001,5,3,134,2000-2001,Belleville Bulls,Regular Season,68,35,83,118,--,24,--,--,--,--,--,--,--,--,0
+8469581,Kyle Wellwood,1983-05-16,1983,05,16,"Windsor, ON, CAN",CAN,"5' 10""",70,181,C,C,Right,2001,5,3,134,2000-2001,Belleville Bulls,Playoffs,10,3,16,19,--,4,--,--,--,--,--,--,--,--,0
+8469582,Colin Stuart,1982-07-08,1982,07,08,"Rochester, MN, USA",USA,"6' 2""",74,205,LW,L,Left,2001,5,4,135,2000-2001,Colorado College,Regular Season,41,2,7,9,--,26,--,--,--,--,--,--,--,--,0
+8469584,Joel Perrault,1983-04-06,1983,04,06,"Montreal, QC, CAN",CAN,"6' 2""",74,212,C,C,Right,2001,5,6,137,2000-2001,Baie-Comeau Drakkar,Regular Season,68,10,14,24,--,46,--,--,--,--,--,--,--,--,0
+8469584,Joel Perrault,1983-04-06,1983,04,06,"Montreal, QC, CAN",CAN,"6' 2""",74,212,C,C,Right,2001,5,6,137,2000-2001,Baie-Comeau Drakkar,Playoffs,11,1,1,2,--,10,--,--,--,--,--,--,--,--,0
+8469587,Tomas Plihal,1983-03-28,1983,03,28,"Frydlant, CZE",CZE,"6' 1""",73,210,C,C,Left,2001,5,9,140,2000-2001,HC Liberec U17,Regular Season,18,3,5,8,--,--,--,--,--,--,--,--,--,--,0
+8469587,Tomas Plihal,1983-03-28,1983,03,28,"Frydlant, CZE",CZE,"6' 1""",73,210,C,C,Left,2001,5,9,140,2000-2001,HC Liberec Jr.,Regular Season,33,16,12,28,--,--,--,--,--,--,--,--,--,--,0
+8469587,Tomas Plihal,1983-03-28,1983,03,28,"Frydlant, CZE",CZE,"6' 1""",73,210,C,C,Left,2001,5,9,140,2000-2001,Czech Republic,Regular Season,7,1,1,2,--,2,--,--,--,--,--,--,--,--,0
+8469588,Cole Jarrett,1983-01-04,1983,01,04,"Sault Ste. Marie, ON, CAN",CAN,"5' 10""",70,200,LW,L,Left,2001,5,10,141,2000-2001,Plymouth Whalers,Regular Season,60,12,36,48,--,98,--,--,--,--,--,--,--,--,0
+8469588,Cole Jarrett,1983-01-04,1983,01,04,"Sault Ste. Marie, ON, CAN",CAN,"5' 10""",70,200,LW,L,Left,2001,5,10,141,2000-2001,Plymouth Whalers,Playoffs,19,6,12,18,--,29,--,--,--,--,--,--,--,--,0
+8469591,Cody McCormick,1983-04-18,1983,04,18,"London, ON, CAN",CAN,"6' 2""",74,222,C,C,Right,2001,5,13,144,2000-2001,Belleville Bulls,Regular Season,66,7,16,23,--,135,--,--,--,--,--,--,--,--,0
+8469591,Cody McCormick,1983-04-18,1983,04,18,"London, ON, CAN",CAN,"6' 2""",74,222,C,C,Right,2001,5,13,144,2000-2001,Belleville Bulls,Playoffs,10,1,1,2,--,23,--,--,--,--,--,--,--,--,0
+8469593,Jussi Timonen,1983-06-29,1983,06,29,"Kuopio, FIN",FIN,"6' 0""",72,200,D,D,Left,2001,5,15,146,2000-2001,KalPa Kuopio U18,Regular Season,4,1,4,5,--,10,--,--,--,--,--,--,--,--,0
+8469593,Jussi Timonen,1983-06-29,1983,06,29,"Kuopio, FIN",FIN,"6' 0""",72,200,D,D,Left,2001,5,15,146,2000-2001,KalPa Kuopio Jr.,Regular Season,38,6,7,13,--,22,--,--,--,--,--,--,--,--,0
+8469593,Jussi Timonen,1983-06-29,1983,06,29,"Kuopio, FIN",FIN,"6' 0""",72,200,D,D,Left,2001,5,15,146,2000-2001,Kalpa Kuopio,Regular Season,7,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469593,Jussi Timonen,1983-06-29,1983,06,29,"Kuopio, FIN",FIN,"6' 0""",72,200,D,D,Left,2001,5,15,146,2000-2001,Finland,Regular Season,6,0,2,2,--,2,--,--,--,--,--,--,--,--,0
+8469593,Jussi Timonen,1983-06-29,1983,06,29,"Kuopio, FIN",FIN,"6' 0""",72,200,D,D,Left,2001,5,15,146,2000-2001,Kalpa Kuopio,Playoffs,2,1,0,1,0,0,--,--,--,--,--,--,--,--,0
+8469598,Kevin Bieksa,1981-06-16,1981,06,16,"Grimsby, ON, CAN",CAN,"6' 1""",73,200,D,D,Right,2001,5,20,151,2000-2001,Bowling Green U. Falcons,Regular Season,35,4,9,13,--,90,--,--,--,--,--,--,--,--,0
+8469610,Andreas Salomonsson,1973-12-19,1973,12,19,"Ornskolds, SWE",SWE,"6' 1""",73,200,C,C,Left,2001,5,32,163,2000-2001,Djurgarden Djurgardens IF Stockholm,Regular Season,48,10,12,22,--,46,--,--,--,--,--,--,--,--,0
+8469610,Andreas Salomonsson,1973-12-19,1973,12,19,"Ornskolds, SWE",SWE,"6' 1""",73,200,C,C,Left,2001,5,32,163,2000-2001,Sweden,Regular Season,9,4,0,4,--,4,--,--,--,--,--,--,--,--,0
+8469610,Andreas Salomonsson,1973-12-19,1973,12,19,"Ornskolds, SWE",SWE,"6' 1""",73,200,C,C,Left,2001,5,32,163,2000-2001,Djurgarden Djurgardens IF Stockholm,Playoffs,13,3,4,7,--,31,--,--,--,--,--,--,--,--,0
+8469615,Maxim Kondratiev,1983-01-20,1983,01,20,"Togliatti, RUS",RUS,"6' 1""",73,197,D,D,Left,2001,6,3,168,2000-2001,Samara,Regular Season,18,2,1,3,--,24,--,--,--,--,--,--,--,--,0
+8469619,Dennis Seidenberg,1981-07-18,1981,07,18,"Schwenningen, DEU",DEU,"6' 0""",72,198,D,D,Left,2001,6,7,172,2000-2001,Mannheimer ERC Jr.,Regular Season,9,3,8,11,--,20,--,--,--,--,--,--,--,--,0
+8469619,Dennis Seidenberg,1981-07-18,1981,07,18,"Schwenningen, DEU",DEU,"6' 0""",72,198,D,D,Left,2001,6,7,172,2000-2001,Mannheim Adler,Regular Season,55,2,5,7,--,6,--,--,--,--,--,--,--,--,0
+8469619,Dennis Seidenberg,1981-07-18,1981,07,18,"Schwenningen, DEU",DEU,"6' 0""",72,198,D,D,Left,2001,6,7,172,2000-2001,Germany,Regular Season,5,1,3,4,--,2,--,--,--,--,--,--,--,--,0
+8469619,Dennis Seidenberg,1981-07-18,1981,07,18,"Schwenningen, DEU",DEU,"6' 0""",72,198,D,D,Left,2001,6,7,172,2000-2001,Germany,Regular Season,7,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469619,Dennis Seidenberg,1981-07-18,1981,07,18,"Schwenningen, DEU",DEU,"6' 0""",72,198,D,D,Left,2001,6,7,172,2000-2001,Mannheim Adler,Playoffs,12,0,1,1,--,10,--,--,--,--,--,--,--,--,0
+8469622,Ryane Clowe,1982-09-30,1982,09,30,"St. John's, NL, CAN",CAN,"6' 3""",75,225,LW,L,Left,2001,6,10,175,2000-2001,Rimouski Oceanic,Regular Season,32,15,10,25,--,43,--,--,--,--,--,--,--,--,0
+8469622,Ryane Clowe,1982-09-30,1982,09,30,"St. John's, NL, CAN",CAN,"6' 3""",75,225,LW,L,Left,2001,6,10,175,2000-2001,Rimouski Oceanic,Playoffs,11,8,1,9,--,12,--,--,--,--,--,--,--,--,0
+8469623,Marek Zidlicky,1977-02-03,1977,02,03,"Most, CZE",CZE,"5' 11""",71,190,D,D,Right,2001,6,11,176,2000-2001,Hifk Helsinki,Regular Season,51,12,25,37,--,146,--,--,--,--,--,--,--,--,0
+8469623,Marek Zidlicky,1977-02-03,1977,02,03,"Most, CZE",CZE,"5' 11""",71,190,D,D,Right,2001,6,11,176,2000-2001,Hifk Helsinki,Playoffs,5,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8469626,Andrew Alberts,1981-06-30,1981,06,30,"Minneapolis, MN, USA",USA,"6' 5""",77,218,D,D,Left,2001,6,14,179,2000-2001,Waterloo Black Hawks,Regular Season,54,4,10,14,--,128,--,--,--,--,--,--,--,--,0
+8469629,Tom Cavanagh,1982-03-24,1982,03,24,"Warwick, RI, USA",USA,"6' 0""",72,200,RW,R,Left,2001,6,17,182,2000-2001,Phillips Exeter Academy Big Red,Regular Season,31,42,40,82,--,34,--,--,--,--,--,--,--,--,0
+8469638,Jussi Jokinen,1983-04-01,1983,04,01,"Kalajoki, FIN",FIN,"5' 11""",71,198,LW,L,Left,2001,6,27,192,2000-2001,Karpat Oulu U18,Regular Season,1,2,1,3,--,0,--,--,--,--,--,--,--,--,0
+8469638,Jussi Jokinen,1983-04-01,1983,04,01,"Kalajoki, FIN",FIN,"5' 11""",71,198,LW,L,Left,2001,6,27,192,2000-2001,Karpat Jr. Karpat Oulu Jr.,Regular Season,41,18,31,49,--,69,--,--,--,--,--,--,--,--,0
+8469638,Jussi Jokinen,1983-04-01,1983,04,01,"Kalajoki, FIN",FIN,"5' 11""",71,198,LW,L,Left,2001,6,27,192,2000-2001,Finland,Regular Season,6,2,0,2,--,2,--,--,--,--,--,--,--,--,0
+8469638,Jussi Jokinen,1983-04-01,1983,04,01,"Kalajoki, FIN",FIN,"5' 11""",71,198,LW,L,Left,2001,6,27,192,2000-2001,Karpat Jr. Karpat Oulu Jr.,Playoffs,6,2,1,3,0,0,--,--,--,--,--,--,--,--,0
+8469639,Brooks Laich,1983-06-23,1983,06,23,"Wawota, SK, CAN",CAN,"6' 2""",74,200,C,C,Left,2001,6,28,193,2000-2001,Moose Jaw Warriors,Regular Season,71,9,21,30,--,28,--,--,--,--,--,--,--,--,0
+8469639,Brooks Laich,1983-06-23,1983,06,23,"Wawota, SK, CAN",CAN,"6' 2""",74,200,C,C,Left,2001,6,28,193,2000-2001,Moose Jaw Warriors,Playoffs,4,0,0,0,--,5,--,--,--,--,--,--,--,--,0
+8469647,Derek Boogaard,1982-06-23,1982,06,23,"Saskatoon, SK, CAN",CAN,"6' 7""",79,265,LW,L,Left,2001,7,6,202,2000-2001,Prince George Cougars,Regular Season,61,1,8,9,--,245,--,--,--,--,--,--,--,--,0
+8469647,Derek Boogaard,1982-06-23,1982,06,23,"Saskatoon, SK, CAN",CAN,"6' 7""",79,265,LW,L,Left,2001,7,6,202,2000-2001,Prince George Cougars,Playoffs,6,1,0,1,--,31,--,--,--,--,--,--,--,--,0
+8469656,Jason King,1981-09-14,1981,09,14,"Corner Brook, NL, CAN",CAN,"6' 0""",72,193,RW,R,Left,2001,7,16,212,2000-2001,Halifax Mooseheads,Regular Season,72,48,41,89,--,78,--,--,--,--,--,--,--,--,0
+8469656,Jason King,1981-09-14,1981,09,14,"Corner Brook, NL, CAN",CAN,"6' 0""",72,193,RW,R,Left,2001,7,16,212,2000-2001,Halifax Mooseheads,Playoffs,6,3,2,5,--,16,--,--,--,--,--,--,--,--,0
+8469664,David Moss,1981-12-28,1981,12,28,"Livonia, MI, USA",USA,"6' 4""",76,210,RW,R,Right,2001,7,24,220,2000-2001,St. Louis Jr. Blues,Regular Season,9,2,2,4,--,2,--,--,--,--,--,--,--,--,0
+8469664,David Moss,1981-12-28,1981,12,28,"Livonia, MI, USA",USA,"6' 4""",76,210,RW,R,Right,2001,7,24,220,2000-2001,Cedar Rapids Roughriders,Regular Season,51,20,18,38,--,14,--,--,--,--,--,--,--,--,0
+8469664,David Moss,1981-12-28,1981,12,28,"Livonia, MI, USA",USA,"6' 4""",76,210,RW,R,Right,2001,7,24,220,2000-2001,Cedar Rapids Roughriders,Playoffs,4,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469665,Johnny Oduya,1981-10-01,1981,10,01,"Stockholm, SWE",SWE,"6' 0""",72,195,D,D,Left,2001,7,25,221,2000-2001,Moncton Wildcats,Regular Season,44,11,38,49,--,147,--,--,--,--,--,--,--,--,0
+8469665,Johnny Oduya,1981-10-01,1981,10,01,"Stockholm, SWE",SWE,"6' 0""",72,195,D,D,Left,2001,7,25,221,2000-2001,Victoriaville Tigres,Regular Season,24,3,16,19,--,112,--,--,--,--,--,--,--,--,0
+8469665,Johnny Oduya,1981-10-01,1981,10,01,"Stockholm, SWE",SWE,"6' 0""",72,195,D,D,Left,2001,7,25,221,2000-2001,Victoriaville Tigres,Playoffs,13,4,9,13,--,10,--,--,--,--,--,--,--,--,0
+8469666,Brandon Bochenski,1982-04-04,1982,04,04,"Blaine, MN, USA",USA,"6' 1""",73,195,RW,R,Right,2001,7,27,223,2000-2001,Lincoln Stars,Regular Season,55,47,33,80,--,22,--,--,--,--,--,--,--,--,0
+8469666,Brandon Bochenski,1982-04-04,1982,04,04,"Blaine, MN, USA",USA,"6' 1""",73,195,RW,R,Right,2001,7,27,223,2000-2001,Lincoln Stars,Playoffs,11,5,7,12,--,4,--,--,--,--,--,--,--,--,0
+8469667,Tony Martensson,1980-06-23,1980,06,23,"Brynas, SWE",SWE,"6' 0""",72,192,C,C,Left,2001,7,28,224,2000-2001,Brynas Brynas If Gavle,Regular Season,50,15,11,26,--,20,--,--,--,--,--,--,--,--,0
+8469667,Tony Martensson,1980-06-23,1980,06,23,"Brynas, SWE",SWE,"6' 0""",72,192,C,C,Left,2001,7,28,224,2000-2001,Brynas IF Gavle Jr.,Regular Season,1,1,0,1,--,0,--,--,--,--,--,--,--,--,0
+8469667,Tony Martensson,1980-06-23,1980,06,23,"Brynas, SWE",SWE,"6' 0""",72,192,C,C,Left,2001,7,28,224,2000-2001,Brynas Brynas If Gavle,Playoffs,4,0,1,1,--,2,--,--,--,--,--,--,--,--,0
+8469668,David Printz,1980-07-24,1980,07,24,"Stockholm, SWE",SWE,"6' 5""",77,220,D,D,Left,2001,7,29,225,2000-2001,Great Falls Americans,Regular Season,54,13,23,36,--,93,--,--,--,--,--,--,--,--,0
+8469668,David Printz,1980-07-24,1980,07,24,"Stockholm, SWE",SWE,"6' 5""",77,220,D,D,Left,2001,7,29,225,2000-2001,Great Falls Americans,Playoffs,13,3,5,8,--,16,--,--,--,--,--,--,--,--,0
+8469670,Marek Svatos,1982-06-17,1982,06,17,"Kosice, SVK",SVK,"5' 10""",70,185,RW,R,Right,2001,7,31,227,2000-2001,Kootenay Ice,Regular Season,39,23,18,41,--,47,--,--,--,--,--,--,--,--,0
+8469670,Marek Svatos,1982-06-17,1982,06,17,"Kosice, SVK",SVK,"5' 10""",70,185,RW,R,Right,2001,7,31,227,2000-2001,Kootenay Ice,Playoffs,11,7,2,9,--,26,--,--,--,--,--,--,--,--,0
+8469672,Aaron Voros,1981-07-02,1981,07,02,"Vancouver, BC, CAN",CAN,"6' 2""",74,210,LW,L,Left,2001,8,2,229,2000-2001,Victoria Grizzlies,Regular Season,57,34,34,68,--,196,--,--,--,--,--,--,--,--,0
+8469672,Aaron Voros,1981-07-02,1981,07,02,"Vancouver, BC, CAN",CAN,"6' 2""",74,210,LW,L,Left,2001,8,2,229,2000-2001,Victoria Grizzlies,Playoffs,30,16,15,31,--,--,--,--,--,--,--,--,--,--,0
+8469681,Ryan Hollweg,1983-04-23,1983,04,23,"Downey, CA, USA",USA,"5' 10""",70,212,LW,L,Left,2001,8,11,238,2000-2001,Medicine Hat Tigers,Regular Season,65,19,39,58,--,125,--,--,--,--,--,--,--,--,0
+8469684,Milan Jurcina,1983-06-07,1983,06,07,"Liptovsky Mikulas, SVK",SVK,"6' 4""",76,253,D,D,Right,2001,8,14,241,2000-2001,Halifax Mooseheads,Regular Season,68,0,5,5,--,56,--,--,--,--,--,--,--,--,0
+8469684,Milan Jurcina,1983-06-07,1983,06,07,"Liptovsky Mikulas, SVK",SVK,"6' 4""",76,253,D,D,Right,2001,8,14,241,2000-2001,Slovakia,Regular Season,6,0,0,0,--,6,--,--,--,--,--,--,--,--,0
+8469684,Milan Jurcina,1983-06-07,1983,06,07,"Liptovsky Mikulas, SVK",SVK,"6' 4""",76,253,D,D,Right,2001,8,14,241,2000-2001,Halifax Mooseheads,Playoffs,6,0,2,2,--,12,--,--,--,--,--,--,--,--,0
+8469685,Andrew Murray,1981-11-06,1981,11,06,"Selkirk, MB, CAN",CAN,"6' 2""",74,210,C,C,Left,2001,8,15,242,2000-2001,Selkirk Steelers,Regular Season,64,46,56,102,--,72,--,--,--,--,--,--,--,--,0
+8469685,Andrew Murray,1981-11-06,1981,11,06,"Selkirk, MB, CAN",CAN,"6' 2""",74,210,C,C,Left,2001,8,15,242,2000-2001,Selkirk Steelers,Playoffs,5,3,0,3,--,6,--,--,--,--,--,--,--,--,0
+8469689,Tomas Mojzis,1982-05-02,1982,05,02,"Kolin, CZE",CZE,"6' 1""",73,195,D,D,Left,2001,8,19,246,2000-2001,Moose Jaw Warriors,Regular Season,72,11,25,36,--,115,--,--,--,--,--,--,--,--,0
+8469689,Tomas Mojzis,1982-05-02,1982,05,02,"Kolin, CZE",CZE,"6' 1""",73,195,D,D,Left,2001,8,19,246,2000-2001,Moose Jaw Warriors,Playoffs,4,0,1,1,--,8,--,--,--,--,--,--,--,--,0
+8469691,Kari Haakana,1973-11-08,1973,11,08,"Outokumpu, FIN",FIN,"6' 1""",73,220,D,D,Left,2001,8,21,248,2000-2001,Jokerit Jokerit Helsinki,Regular Season,52,2,8,10,--,98,--,--,--,--,--,--,--,--,0
+8469691,Kari Haakana,1973-11-08,1973,11,08,"Outokumpu, FIN",FIN,"6' 1""",73,220,D,D,Left,2001,8,21,248,2000-2001,Jokerit Jokerit Helsinki,Playoffs,5,0,0,0,0,2,--,--,--,--,--,--,0,0,0
+8469696,Petr Cajanek,1975-08-18,1975,08,18,"Zlinia, CZE",CZE,"5' 11""",71,186,C,C,Left,2001,8,26,253,2000-2001,HC Continental Zlin,Regular Season,52,18,31,49,--,105,--,--,--,--,--,--,--,--,0
+8469696,Petr Cajanek,1975-08-18,1975,08,18,"Zlinia, CZE",CZE,"5' 11""",71,186,C,C,Left,2001,8,26,253,2000-2001,Czech Republic,Regular Season,9,2,6,8,--,4,--,--,--,--,--,--,--,--,0
+8469696,Petr Cajanek,1975-08-18,1975,08,18,"Zlinia, CZE",CZE,"5' 11""",71,186,C,C,Left,2001,8,26,253,2000-2001,HC Continental Zlin,Playoffs,6,0,4,4,--,22,--,--,--,--,--,--,--,--,0
+8469701,Dmitri Bykov,1977-05-05,1977,05,05,"Izhevsk, RUS",RUS,"6' 1""",73,190,D,D,Left,2001,8,31,258,2000-2001,Ak Bars Kazan,Regular Season,39,3,8,11,--,28,--,--,--,--,--,--,--,--,0
+8469701,Dmitri Bykov,1977-05-05,1977,05,05,"Izhevsk, RUS",RUS,"6' 1""",73,190,D,D,Left,2001,8,31,258,2000-2001,Ak Bars Kazan,Playoffs,4,0,1,1,--,4,--,--,--,--,--,--,--,--,0
+8469707,PA Parenteau,1983-03-24,1983,03,24,"Hull, QC, CAN",CAN,"6' 0""",72,200,RW,R,Right,2001,9,5,264,2000-2001,Moncton Wildcats,Regular Season,45,10,19,29,--,38,--,--,--,--,--,--,--,--,0
+8469707,PA Parenteau,1983-03-24,1983,03,24,"Hull, QC, CAN",CAN,"6' 0""",72,200,RW,R,Right,2001,9,5,264,2000-2001,Chicoutimi Sagueneens,Regular Season,28,10,13,23,--,14,--,--,--,--,--,--,--,--,0
+8469707,PA Parenteau,1983-03-24,1983,03,24,"Hull, QC, CAN",CAN,"6' 0""",72,200,RW,R,Right,2001,9,5,264,2000-2001,Chicoutimi Sagueneens,Playoffs,7,4,7,11,--,2,--,--,--,--,--,--,--,--,0
+8469710,Ivan Majesky,1976-09-02,1976,09,02,"Banska Bystrica, SVK",SVK,"6' 4""",76,231,D,D,Right,2001,9,8,267,2000-2001,Ilves Tampere,Regular Season,54,2,14,16,--,99,--,--,--,--,--,--,--,--,0
+8469710,Ivan Majesky,1976-09-02,1976,09,02,"Banska Bystrica, SVK",SVK,"6' 4""",76,231,D,D,Right,2001,9,8,267,2000-2001,Ilves Tampere,Playoffs,9,0,1,1,--,6,--,--,--,--,--,--,--,--,0
+8469714,Mikko Lehtonen,1978-06-12,1978,06,12,"Oulu, FIN",FIN,"6' 1""",73,194,D,D,Left,2001,9,12,271,2000-2001,Karpat Karpat Oulu,Regular Season,54,6,9,15,--,58,--,--,--,--,--,--,--,--,0
+8469714,Mikko Lehtonen,1978-06-12,1978,06,12,"Oulu, FIN",FIN,"6' 1""",73,194,D,D,Left,2001,9,12,271,2000-2001,Karpat Karpat Oulu,Playoffs,9,0,3,3,0,4,--,--,--,--,--,--,0,0,0
+8469715,Ales Pisa,1977-01-02,1977,01,02,"Pardubice, CZE",CZE,"6' 0""",72,200,D,D,Right,2001,9,13,272,2000-2001,HC IPB Pojistovna Pardubice,Regular Season,47,10,13,23,--,75,--,--,--,--,--,--,--,--,0
+8469715,Ales Pisa,1977-01-02,1977,01,02,"Pardubice, CZE",CZE,"6' 0""",72,200,D,D,Right,2001,9,13,272,2000-2001,HC IPB Pojistovna Pardubice,Playoffs,7,2,2,4,--,4,--,--,--,--,--,--,--,--,0
+8469720,Shay Stephenson,1983-09-13,1983,09,13,"Outlook, SK, CAN",CAN,"6' 2""",74,180,LW,L,Left,2003,7,1,198,2002-2003,Red Deer Rebels,Regular Season,67,17,15,32,16,84,2,--,0,--,--,--,--,--,0
+8469720,Shay Stephenson,1983-09-13,1983,09,13,"Outlook, SK, CAN",CAN,"6' 2""",74,180,LW,L,Left,2003,7,1,198,2002-2003,Red Deer Rebels,Playoffs,23,6,5,11,--,33,1,--,0,--,--,--,--,--,0
+8469728,Toni Dahlman,1979-09-03,1979,09,03,"Helsinki, FIN",FIN,"6' 0""",72,198,RW,R,Right,2001,9,27,286,2000-2001,Ilves Tampere,Regular Season,56,10,18,28,--,16,--,--,--,--,--,--,--,--,0
+8469728,Toni Dahlman,1979-09-03,1979,09,03,"Helsinki, FIN",FIN,"6' 0""",72,198,RW,R,Right,2001,9,27,286,2000-2001,Ilves Tampere,Playoffs,9,3,2,5,0,2,--,--,--,--,--,--,--,--,0
+8469733,Cam Paddock,1983-03-22,1983,03,22,"N. Vancouver, BC, CAN",CAN,"6' 0""",72,178,C,C,Right,2002,5,6,137,2001-2002,Kelowna Rockets,Regular Season,72,38,35,73,6,122,11,--,4,--,4,--,--,--,0
+8469733,Cam Paddock,1983-03-22,1983,03,22,"N. Vancouver, BC, CAN",CAN,"6' 0""",72,178,C,C,Right,2002,5,6,137,2001-2002,Kelowna Rockets,Playoffs,15,8,6,14,--,35,5,--,0,--,1,--,--,--,0
+8469755,Brandon Segal,1983-07-12,1983,07,12,"Richmond, BC, CAN",CAN,"6' 2""",74,215,RW,R,Right,2002,4,6,102,2001-2002,Calgary Hitmen,Regular Season,71,43,40,83,17,122,18,--,1,--,7,--,--,--,0
+8469755,Brandon Segal,1983-07-12,1983,07,12,"Richmond, BC, CAN",CAN,"6' 2""",74,215,RW,R,Right,2002,4,6,102,2001-2002,Calgary Hitmen,Playoffs,7,1,4,5,--,16,0,--,0,--,0,--,--,--,0
