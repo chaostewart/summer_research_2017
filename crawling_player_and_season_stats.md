@@ -1,4 +1,4 @@
-# Step 1: crawling season by season data for all skaters who played games in NHL between season 1998-1999 to season 2016-2017. 
+### Step 1: crawling season by season data for all skaters who played games in NHL between season 1998-1999 to season 2016-2017. 
 + Data is crawled from NHL.com, under "STATS" --> "PLAYERS" : http://www.nhl.com/stats/player?aggregate=0&gameType=2&report=skatersummary&pos=S&reportType=season&seasonFrom=20162017&seasonTo=20162017&filter=gamesPlayed,gte,1&sort=points,goals,assists
 + Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_season_stats
 + The data is written to database as table "" (referred as table_1 in this context for convenience).
