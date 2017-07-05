@@ -11,25 +11,26 @@
 + The data is written to database as table "" (referred as table_2).
 + Note that players in table_1 and table_2 have played greater than zero game in NHL.
 + To get player stats for the skater who got drafted into NHL but played 0 game in NHL, move to Step 3.
++ Based on PlayerId, eliminate skaters who got drafted outside the draft year range of 1998-2008 in table_1, save the new table as table "" (referred as table_3).
  
 ### Step 3: get player stats for the skater who got drafted into NHL but played 0 game in NHL
 + Crawl player stats for all skater who got drafted between 1998-2008 whether they ended up playing gmaes in NHL or not.
 + Data is crawled form eliteprospects.com, under "DRAFTS", select draft year between 1998-2008.
 + Only skaters' stats are recorded. Goalies are ommitted.
 + Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_elite_prospect
-+ The data is written to database as table "" (referred as table_3).
-+ Exclude players appeared in table_2 from table_3, the rest of the player are the skaters who got drafted but never played in NHL.
-+ To identify the same player who appear in both table_2 and table_3, use the join condition on same birthday,same draft year and same overall.
-+ At the end, player stats for skaters who played 0 games is saved in table "" (referred as table_4).
++ The data is written to database as table "" (referred as table_4).
++ Exclude players appeared in table_2 from table_4, the rest of the player are the skaters who got drafted but never played in NHL.
++ To identify the same player who appear in both table_2 and table_4, use the join condition on same birthday,same draft year and same overall.
++ At the end, player stats for skaters who played 0 games is saved in table "" (referred as table_5).
  
 ### Step 4: obtain final CSS rank for all skaters from north America or Europe between 1998-2008
 + The final CSS rank is only available on draftanalyst.com, under "Rankings" --> "Year-to-Year Central Scouting Final Rankings"
 + Scrape the rankings for skaters only.
-+ The data is written to database as table "chao_draft.draft_analyst_CSS_ranking" (referred as table_5)
++ The data is written to database as table "chao_draft.draft_analyst_CSS_ranking" (referred as table_6)
 
-### Step 5: find corresponding CSS rankings in table_5 for skaters in talbe_2 and table_4
-+ Firstly, many skaters rankings can be found by simply joining table_2 (or table_4) with table_5 on same draft year and same player name.
+### Step 5: find corresponding CSS rankings in table_5 for skaters in talbe_2 and table_6
++ Firstly, many skaters rankings can be found by simply joining table_2 (or table_6) with table_6 on same draft year and same player name.
 + However, due to misspelling or the use of nicknames, many skaters' ranking need to be found painfully in a manual way.
-+ Update players in table_5 with corresponding PlayerId from table_2 and eliteId from table_4.
-+ Note: many names in table_5 have been modified according to table_4 and table_2 due to typos or spelling variations.
++ Update players in table_6 with corresponding PlayerId from table_2 and eliteId from table_5.
++ Note: many names in table_6 have been modified according to table_2 and table_5 due to typos or spelling variations.
 
