@@ -34,3 +34,8 @@
 + Update players in table_6 with corresponding PlayerId from table_2 and eliteId from table_5.
 + Note: many names in table_6 have been modified according to table_2 and table_5 due to typos or spelling variations.
 
+### Step 6: create seven-season stats tables that are equivalent to Wilson's table
++ Depending on including playoffs in NHL or not, two views are created as 
+"" (referred as view_7) and "" (referred as view_8)
++ Based on view_7 and view_8, repectively, two tables that contain skaters first seven-season stats in NHL are created as
+"" (referred as table_7) and "" (referred as table_8)
