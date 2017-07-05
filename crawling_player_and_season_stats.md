@@ -1,5 +1,5 @@
 Step 1: crawling season by season data for all skaters who played games in NHL between season 1998-1999 to season 2016-2017. 
-+ Data is crawled from NHL.com, under "STATS" -> "PLAYERS" : http://www.nhl.com/stats/player?aggregate=0&gameType=2&report=skatersummary&pos=S&reportType=season&seasonFrom=20162017&seasonTo=20162017&filter=gamesPlayed,gte,1&sort=points,goals,assists
++ Data is crawled from NHL.com, under "STATS" --> "PLAYERS" : http://www.nhl.com/stats/player?aggregate=0&gameType=2&report=skatersummary&pos=S&reportType=season&seasonFrom=20162017&seasonTo=20162017&filter=gamesPlayed,gte,1&sort=points,goals,assists
 + Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_season_stats
 + The data is written to database as table "" (referred as table_1 in this context for convenience).
    
@@ -23,7 +23,7 @@ Step 3: get player stats for the skater who got drafted into NHL but played 0 ga
 + At the end, player stats for skaters who played 0 games is saved in table "" (referred as table_4).
  
 Step 4: obtain final CSS rank for all skaters from north America or Europe between 1998-2008
-+ The final CSS rank is only available on draftanalyst.com, under "Rankings" _> "Year-to-Year Central Scouting Final Rankings"
++ The final CSS rank is only available on draftanalyst.com, under "Rankings" --> "Year-to-Year Central Scouting Final Rankings"
 + Scrape the rankings for skaters only.
 + The data is written to database as table "chao_draft.draft_analyst_CSS_ranking" (referred as table_5)
 + Note: many names in table_5 have been modified according to table_4 and table_2 due to typos or spelling variations. 
