@@ -17,7 +17,7 @@
 + Crawl player stats for all skater who got drafted between 1998-2008 whether they ended up playing gmaes in NHL or not.
 + Data is crawled form eliteprospects.com, under "DRAFTS", select draft year between 1998-2008.
 + Only skaters' stats are recorded. Goalies are ommitted.
-+ Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_elite_prospect
++ Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_elite_prospects
 + The data is written to database as table "" (referred as table_4).
 + Exclude players appeared in table_2 from table_4, the rest of the player are the skaters who got drafted but never played in NHL.
 + To identify the same player who appear in both table_2 and table_4, use the join condition on same birthday,same draft year and same overall.
