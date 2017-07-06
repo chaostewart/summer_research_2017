@@ -12,6 +12,7 @@
 + Note that players in table_1 and table_2 have played greater than zero game in NHL.
 + To get player stats for the skater who got drafted into NHL but played 0 game in NHL, move to Step 3.
 + Based on PlayerId, eliminate skaters who got drafted outside the draft year range of 1998-2008 in table_1, save the new table as table "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008" (referred as table_3).
++ Note: table_3 contains players who got drafted in the draft year range BUT didn't play in their first 7 seasons in NHL. 28 of them didn't play games in NHL until the 8th season and later.
  
 ### Step 3: get player stats for the skater who got drafted into NHL but played 0 game in NHL
 + Crawl player stats for all skater who got drafted between 1998-2008 whether they ended up playing gmaes in NHL or not.
