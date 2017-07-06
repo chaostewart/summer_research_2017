@@ -28,6 +28,7 @@
 + The final CSS rank is only available on draftanalyst.com, under "Rankings" --> "Year-to-Year Central Scouting Final Rankings"
 + Scrape the rankings for skaters only.
 + The data is written to database as table "chao_draft.draft_analyst_CSS_rank" (referred as table_6)
++ Note: Draft year 2003 has the least number of CSS ranks available. There are only 55 ranks available skaters from north America and Europe in total. 
 
 ### Step 5: find corresponding CSS rankings in table_6 for skaters in talbe_2 and table_5
 + Firstly, many skaters rankings can be found by simply joining table_2 (or table_5) with table_6 on same draft year and same player name.
