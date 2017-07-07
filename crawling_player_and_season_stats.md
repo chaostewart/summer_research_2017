@@ -45,6 +45,7 @@
 + The data is written to database as table "chao_draft.draft_analyst_CSS_rank" (referred as table_6)
 + Note: Draft year 2003 has the least number of CSS ranks available. There are only 55 ranks available skaters from north America and Europe in total. 
 DraftYear | count(*) |
+---------- |-----|
 1998 | 146 |
 1999 | 296 |
 2000 | 309 |
