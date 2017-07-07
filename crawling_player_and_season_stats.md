@@ -61,11 +61,11 @@ DraftYear | count(*) |
 2008 | 385 |
 
 
-### Step 5: find corresponding CSS rankings in table_6 for skaters in talbe_2 and table_5
-+ Firstly, many skaters rankings can be found by simply joining table_2 (or table_5) with table_6 on same draft year and same player name.
-+ However, due to misspelling or the use of nicknames, many skaters' ranking need to be found painfully in a manual way.
-+ Update players in table_6 with corresponding PlayerId from table_2 and eliteId from table_5.
-+ Note: many names in table_6 have been modified according to table_2 and table_5 due to typos or spelling variations.
+### Step 5: find corresponding CSS ranks from table_6 for skaters in talbe_2 and table_5.
++ Firstly, many skaters' CSS ranks can be matched by simply joining table_2 (or table_5) with table_6 on same DraftYear and same PlayerName.
++ However, due to misspelling or the use of nicknames, many skaters' ranks need to be matched painfully in a manual way.
++ Updated table_6 with corresponding PlayerId from table_2 and eliteId from table_5.
++ Note: many PlayerNames in table_6 have been modified according to table_2 and table_5.
 
 ### Step 6: create seven-season stats tables that are equivalent to Wilson's table
 + Depending on including playoffs in NHL or not, two views are created as 
