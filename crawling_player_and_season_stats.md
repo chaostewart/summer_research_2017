@@ -11,7 +11,8 @@
 + The data is written to database as table "chao_draft.NHL_skaters_stats_1998_2008_original" (referred as table_2).
 + Total number of distinct skaters in talbe_2 is 1106.
 + Note that skaters in table_1 and table_2 have played greater than zero game in NHL. NHL.com does not have statistics for players who got drafted into NHL but didn't play any games in NHL, which is available in Step 3.
-+ Based on PlayerId, eliminate season stats for skaters who got drafted outside the draft year range of 1998-2008 in table_1, save the season stats of our interest as table "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008" (referred as table_3).
++ Based on PlayerId, eliminate season stats for skaters who got drafted outside the draft year range of 1998-2008 in table_1, save the season stats of our interest as 
+view "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view" (referred as view_1) and table "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008" (referred as table_3).
 + Note: table_3 contains skaters who got drafted in the draft year range of our interest BUT DID NOT PLAY games in their first 7 seasons in NHL. To be accurate, there are 28 of them didn't play games in NHL until their 8th season or later on.
  
 ### Step 3: get player stats for skaters who got drafted into NHL but never played games in NHL.
@@ -21,7 +22,7 @@
 + Only skaters' stats are recorded. Goalies are ommitted.
 + The data is written to database as table "chao_draft.elite_prospects_skaters_stats_1998_2008_original" (referred as table_4).
 + Total number of distinct skaters in talbe_4 is 2480.
-+ Find all 1106 players from table_2 in table_4, saved as "chao_draft.elite_nhl_duplicated_skaters_view" (referred as view_1).
++ Find all 1106 players from table_2 in table_4, saved as "chao_draft.elite_nhl_duplicated_skaters_view" (referred as view_2).
       
       create view chao_draft.elite_nhl_duplicated_skaters_view as
       select distinct eliteId, t1.PlayerName as elite_name, t2.PlayerName as nhl_name, PlayerId, t2.DraftYear, t2.Overall
@@ -30,7 +31,7 @@
       where t1.DraftYear = t2.DraftYear and t1.Overall = t2.Overall
       order by t2.DraftYear, t2.Overall;
          
-+ Excluding players appeared in table_2 from table_4, are the skaters who got drafted but never played in NHL. SAved as table "chao_draft.elite_zerogames_skaters_find_CSSrank" (referred as table_5)
++ Excluding players appeared in table_2 from table_4, are the skaters who got drafted but never played in NHL. Saved as table "chao_draft.elite_zerogames_skaters_find_CSSrank" (referred as table_5)
       
       create table chao_draft.elite_zerogames_skaters_find_CSSrank as
       select distinct eliteId, PlayerName, BirthDate, Birthplace, DraftYear, Overall
