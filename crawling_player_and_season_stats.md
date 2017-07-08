@@ -49,19 +49,19 @@ view "`chao_draft.elite_zerogames_skaters_find_CSSrank`"(referred as `view_5`) a
 + Note: Draft year 2003 has the least number of CSS ranks available. There are only 55 ranks available skaters from north America and Europe in total. 
 
 
-DraftYear | count(*) |
----------- |-----|
-1998 | 146 |
-1999 | 296 |
-2000 | 309 |
-2001 | 309 |
-2002 | 220 |
-2003 | 55 |
-2004 | 390 |
-2005 | 280 | 
-2006 | 379 |
-2007 | 385 |
-2008 | 385 |
+   DraftYear | count(*) |
+   ---------- |-----|
+   1998 | 146 |
+   1999 | 296 |
+   2000 | 309 |
+   2001 | 309 |
+   2002 | 220 |
+   2003 | 55 |
+   2004 | 390 |
+   2005 | 280 | 
+   2006 | 379 |
+   2007 | 385 |
+   2008 | 385 |
 
 
 ### Step 5: find corresponding CSS ranks from table_6 for skaters in talbe_2 and table_5.
@@ -82,10 +82,15 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 
 ### Step 7: skater stats with CSS rank for year 1998-2002 and 2004-2008.
 + Player stats for skaters in `table_2` including their CSS ranks is saved as view "`chao_draft.nhl_nonzerogames_skaters_stats_1998_2008_view`"(referred as `view_10`).
++ There are 1106 distinct players in `view_10`; 778 of them have CSS ranks.
 + Excluding year 2003, player stats for skaters in `table_9` including their CSS ranks is saved as view "`chao_draft.nhl_nonzerogames_skaters_stats_10_years_view`"(referred as `view_11`).
++ There are 964 distinct players in `view_11`; 722 of them have CSS ranks.
 + Player stats for skaters in `table_4` including their CSS ranks is saved as view "`chao_draft.elite_zerogames_skaters_stats_1998_2008_with_view`"(referred as `view_12`).
++ There are 1373 distinct players in `view_12`; 832 of them have CSS ranks.
 + Excluding year 2003, player stats for skaters in `table_4` including their CSS ranks is saved as view "`chao_draft.elite_zerogames_skaters_stats_10_years_view`"(referred as `view_13`).
++ There are 1236 distinct players in `view_13`; 817 of them have CSS ranks.
 + Union `view_11` and `view_13` to include player stats for all skater, whether player for NHL or not, in one view as "`chao_draft.all_skaters_stats_10_years_view`" (referred as `view_14`)
++ There are 2200 distinct players in `view_14`; 1539 of them have CSS ranks.
 
 
 ### Step 8: summerize all players' and seasons' statisicts in one row.
