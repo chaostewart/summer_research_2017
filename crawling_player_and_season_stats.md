@@ -40,6 +40,7 @@ view "chao_draft.elite_zerogames_skaters_find_CSSrank"(referred as view_5) and t
       where eliteId not in
       (select eliteId from chao_draft.elite_nhl_duplicated_skaters_view);
 + Total number of distinct skaters in talbe_5 is 2480 - 1106 = 1374.
++ Note: some skaters got drafted twice by NHL, only the stats of their second draft is recorded. Therefore, in the dataset there are players who got drafted later than year 2008. 
  
 ### Step 4: obtain final Cental Scouting Services(CSS) rank for all skaters.
 + The final CSS rank is available only on draftanalyst.com --> under "Rankings" --> "Year-to-Year Central Scouting Final Rankings".
@@ -80,14 +81,18 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 + There are 964 distinct players in table_9.
 
 ### Step 7: skater stats with CSS rank for year 1998-2002 and 2004-2008.
-+ Player stats for skaters in table_2 including their CSS ranks is saved as view "chao_draft.nhl_nonzerogames_skaters_stats_1998_2008_view"(referred as view_10).
-+ Excluding year 2003, player stats for skaters in table_9 including their CSS ranks is saved as view "chao_draft.nhl_nonzerogames_skaters_stats_10_years_view"(referred as view_11).
-+ Player stats for skaters in table_4 including their CSS ranks is saved as view "chao_draft.elite_zerogames_skaters_stats_1998_2008_with_view"(referred as view_12).
-+ Excluding year 2003, player stats for skaters in table_4 including their CSS ranks is saved as view "chao_draft.elite_zerogames_skaters_stats_10_years_view"(referred as view_13).
-+ Union view_11 and view_13 to include player stats for all skater, whether player for NHL or not, in one view as "chao_draft.all_skaters_stats_10_years_view" (referred as view_14)
++ Player stats for skaters in table_2 including their CSS ranks is saved as view "`chao_draft`.`nhl_nonzerogames_skaters_stats_1998_2008_view`"(referred as view_10).
++ Excluding year 2003, player stats for skaters in table_9 including their CSS ranks is saved as view "`chao_draft`.`nhl_nonzerogames_skaters_stats_10_years_view`"(referred as view_11).
++ Player stats for skaters in table_4 including their CSS ranks is saved as view "`chao_draft`.`elite_zerogames_skaters_stats_1998_2008_with_view`"(referred as view_12).
++ Excluding year 2003, player stats for skaters in table_4 including their CSS ranks is saved as view "`chao_draft`.`elite_zerogames_skaters_stats_10_years_view`"(referred as view_13).
++ Union view_11 and view_13 to include player stats for all skater, whether player for NHL or not, in one view as "`chao_draft`.`all_skaters_stats_10_years_view`" (referred as view_14)
 
 
-### Step 8: summerize player statisicts in one row.
-+ Summerize each skater's demographic info as well as the stats (such as GP, G, A, P, etc.) of his regular season and playoffs in the last season before he got drafted into NHL into one row.
-+ 
+### Step 8: summerize all players' and seasons' statisicts in one row.
++ Summerize each skater's demographic info, the stats (such as GP, G, A, P, etc.) of his regular season and playoffs in the last season before he got drafted into NHL, as well as his first seven season's performance in NHL, into one row.
++ Based on view_14, sum each skaters' regular seasons stats in view "`chao_draft`.`all_skaters_stats_regularseason_sum_10_years_view`" (referred as view_15).
++ Based on view_14, sum each skaters' playoffs stats in view "`chao_draft`.`all_skaters_stats_playoffs_sum_10_years_view`" (referred as view_16).
++ Join skaters stats with seasons stats in one row, saved as view"`chao_draft`.`join_skater_and_season_stats_10_years_view`" (referred as view_17)
+and table "`chao_draft`.`join_skater_and_season_stats_10_years`" (referred as table_17).
+
 
