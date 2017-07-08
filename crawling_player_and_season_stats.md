@@ -31,7 +31,8 @@ view "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view" (referred 
       where t1.DraftYear = t2.DraftYear and t1.Overall = t2.Overall
       order by t2.DraftYear, t2.Overall;
          
-+ Excluding players appeared in table_2 from table_4, are the skaters who got drafted but never played in NHL. Saved as table "chao_draft.elite_zerogames_skaters_find_CSSrank" (referred as table_5)
++ Excluding players appeared in table_2 from table_4, are the skaters who got drafted but never played in NHL. Saved as
+view "chao_draft.elite_zerogames_skaters_find_CSSrank"(referred as view_5) and table "chao_draft.elite_zerogames_skaters_find_CSSrank" (referred as table_5)
       
       create table chao_draft.elite_zerogames_skaters_find_CSSrank as
       select distinct eliteId, PlayerName, BirthDate, Birthplace, DraftYear, Overall
@@ -74,5 +75,10 @@ DraftYear | count(*) |
 These two views sum number of GP and TOI in minutes for each season for each player.
 + Based on view_7 and view_8, repectively, two tables that contain skaters first seven-season stats in NHL are created as
 "chao_draft.seven_season_sums_with_playoffs_1998_2008" (referred as table_7) and "chao_draft.seven_season_sums_regular_season_only_1998_2008" (referred as table_8)
++ Note: there are 28 players among the 1106 players who got drafted between 1998 and 2008 and did play games in NHL. However, they did not play any games in their first seven seasons in NHL. 
++ Based on table_8, eliminate players who got drafted in year 2003 (as a large number of them have no CSS ranks) as well as players who played games in their frist seven seasons in NHL, we get table_9 as "chao_draft.seven_season_sums_regular_season_only_10_years_view".
++ There are 964 distinct players in table_9.
 
-### Step 7: 
+### Step 7: summerize player statisicts in one row.
++ Summerize each skater's demographic info as well as the stats (such as GP, G, A, P, etc.) of his regular season and playoffs in the last season before he got drafted into NHL into one row.
+
