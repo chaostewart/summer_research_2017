@@ -12,7 +12,7 @@
 + Total number of distinct skaters in talbe_2 is 1106.
 + Note that skaters in table_1 and table_2 have played greater than zero game in NHL. NHL.com does not have statistics for players who got drafted into NHL but didn't play any games in NHL, which is available in Step 3.
 + Based on PlayerId, eliminate season stats for skaters who got drafted outside the draft year range of 1998-2008 in table_1, save the season stats of our interest as 
-view "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view" (referred as view_1) and table "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008" (referred as table_3).
+view "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view" (referred as view_3) and table "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008" (referred as table_3).
 + Note: table_3 contains skaters who got drafted in the draft year range of our interest BUT DID NOT PLAY games in their first 7 seasons in NHL. To be accurate, there are 28 of them didn't play games in NHL until their 8th season or later on.
  
 ### Step 3: get player stats for skaters who got drafted into NHL but never played games in NHL.
@@ -22,7 +22,7 @@ view "chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view" (referred 
 + Only skaters' stats are recorded. Goalies are ommitted.
 + The data is written to database as table "chao_draft.elite_prospects_skaters_stats_1998_2008_original" (referred as table_4).
 + Total number of distinct skaters in talbe_4 is 2480.
-+ Find all 1106 players from table_2 in table_4, saved as "chao_draft.elite_nhl_duplicated_skaters_view" (referred as view_2).
++ Find all 1106 players from table_2 in table_4, saved as "chao_draft.elite_nhl_duplicated_skaters_view" (referred as view_4).
       
       create view chao_draft.elite_nhl_duplicated_skaters_view as
       select distinct eliteId, t1.PlayerName as elite_name, t2.PlayerName as nhl_name, PlayerId, t2.DraftYear, t2.Overall
@@ -68,8 +68,11 @@ DraftYear | count(*) |
 + Updated table_6 with corresponding PlayerId from table_2 and eliteId from table_5.
 + Note: many PlayerNames in table_6 have been modified according to table_2 and table_5.
 
-### Step 6: create seven-season stats tables that are equivalent to Wilson's table
+### Step 6: create seven-season stats tables that are equivalent to Wilson's table.
 + Depending on including playoffs in NHL or not, two views are created as 
-"chao_draft.season_sums_with_playoffs_1998_2008_view" (referred as view_7) and "chao_draft.season_sums_regular_season_only_1998_2008_view" (referred as view_8)
+"chao_draft.season_sums_with_playoffs_1998_2008_view" (referred as view_7) and "chao_draft.season_sums_regular_season_only_1998_2008_view" (referred as view_8).
+These two views sum number of GP and TOI in minutes for each season for each player.
 + Based on view_7 and view_8, repectively, two tables that contain skaters first seven-season stats in NHL are created as
 "chao_draft.seven_season_sums_with_playoffs_1998_2008" (referred as table_7) and "chao_draft.seven_season_sums_regular_season_only_1998_2008" (referred as table_8)
+
+### Step 7: 
