@@ -79,6 +79,15 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 + Based on table_8, eliminate players who got drafted in year 2003 (as a large number of them have no CSS ranks) as well as players who played games in their frist seven seasons in NHL, we get table_9 as "chao_draft.seven_season_sums_regular_season_only_10_years_view".
 + There are 964 distinct players in table_9.
 
-### Step 7: summerize player statisicts in one row.
+### Step 7: skater stats with CSS rank for year 1998-2002 and 2004-2008.
++ Player stats for skaters in table_2 including their CSS ranks is saved as view "chao_draft.nhl_nonzerogames_skaters_stats_1998_2008_view"(referred as view_10).
++ Excluding year 2003, player stats for skaters in table_9 including their CSS ranks is saved as view "chao_draft.nhl_nonzerogames_skaters_stats_10_years_view"(referred as view_11).
++ Player stats for skaters in table_4 including their CSS ranks is saved as view "chao_draft.elite_zerogames_skaters_stats_1998_2008_with_view"(referred as view_12).
++ Excluding year 2003, player stats for skaters in table_4 including their CSS ranks is saved as view "chao_draft.elite_zerogames_skaters_stats_10_years_view"(referred as view_13).
++ Union view_11 and view_13 to include player stats for all skater, whether player for NHL or not, in one view as "chao_draft.all_skaters_stats_10_years_view" (referred as view_14)
+
+
+### Step 8: summerize player statisicts in one row.
 + Summerize each skater's demographic info as well as the stats (such as GP, G, A, P, etc.) of his regular season and playoffs in the last season before he got drafted into NHL into one row.
++ 
 
