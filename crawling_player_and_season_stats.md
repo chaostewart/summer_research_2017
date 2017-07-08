@@ -93,7 +93,7 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 + There are 2200 distinct players in `view_14`; 1539 of them have CSS ranks.
 
 
-### Step 8: summerize all players' and seasons' statisicts in one row.
+### Step 8: summerize all players' and seasons' statisticts in one row.
 + Summerize each skater's demographic info, the stats (such as GP, G, A, P, etc.) of his regular season and playoffs in the last season before he got drafted into NHL, as well as his first seven season's performance in NHL, into one row.
 + Based on `view_14`, sum each skaters' regular seasons stats in view "`chao_draft.all_skaters_stats_regularseason_sum_10_years_view`" (referred as `view_15`).
 + Based on `view_14`, sum each skaters' playoffs stats in view "`chao_draft.all_skaters_stats_playoffs_sum_10_years_view`" (referred as `view_16`).
