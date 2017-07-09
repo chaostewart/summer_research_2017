@@ -1,12 +1,12 @@
 ### Step 1: crawl season-by-season statistics for all skaters who played games in NHL between season 1998-1999 to season 2016-2017. 
 + Data is crawled from NHL.com, under "STATS" --> "PLAYERS". i.e. link here: http://www.nhl.com/stats/player?aggregate=0&gameType=2&report=skatersummary&pos=S&reportType=season&seasonFrom=20162017&seasonTo=20162017&filter=gamesPlayed,gte,1&sort=points,goals,assists
-+ Python scripts and sample data fies can be found here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_season_stats
++ Python scripts and sample data files can be found here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_season_stats
 + The data is written to database as table "`chao_draft.NHL_season_stats_1998_2016_original`" (referred as `table_1` in this context for convenience).
 + Note: this dataset also includes skaters who got drafted before 1998 and after 2008 which is outside of the range of our intest.
    
 ### Step 2: screen players in table_1; crawl the player statistics for skaters who got drafted between year 1998-2008.
 + With player id (e.g. PlayerId = 8473593) obtained from `table_1`, crawl player stats for skaters for got drafted between 1998-2008 from NHL.com using url = "http://www.nhl.com/player/" + player_id
-+ Python scripts and sample data fies can be found here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_player_stats
++ Python scripts and sample data files can be found here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_NHL_player_stats
 + Record each players demographic info, draft info as well as his season stats for the last season he played before he got drafted into NHL.
 + The data is written to database as table "`chao_draft.NHL_skaters_stats_1998_2008_original`" (referred as `table_2`).
 + Total number of distinct skaters in `talbe_2` is 1106.
@@ -18,7 +18,7 @@ view "`chao_draft.NHL_season_stats_for_skaters_drafted_1998_2008_view`" (referre
 ### Step 3: get player stats for skaters who got drafted into NHL but never played games in NHL.
 + Crawl player stats for all skaters who got drafted between 1998-2008 from eliteprospects.com whether these skaters ended up playing gmaes in NHL or not.
 + Data is crawled from eliteprospects.com, under "DRAFTS" --> select draft year between 1998-2008.
-+ Python scripts and sample data fies can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_elite_prospects
++ Python scripts and sample data files can be find here: https://github.com/chaostewart/summer_research_2017/tree/master/crawl_elite_prospects
 + Only skaters' stats are recorded. Goalies are ommitted.
 + The data is written to database as table "`chao_draft.elite_prospects_skaters_stats_1998_2008_original`" (referred as `table_4`).
 + Total number of distinct skaters in `talbe_4` is 2480.
@@ -80,6 +80,28 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 + Based on `table_8`, eliminate players who got drafted in year 2003 (as a large number of them have no CSS ranks) as well as players who played games in their frist seven seasons in NHL, we get `table_9` as "`chao_draft.seven_season_sums_regular_season_only_10_years_view`".
 + There are 964 distinct players in `table_9`.
 
+#### Note on the seven-season stats table.
++ According to one of Schucker's paper: https://arxiv.org/abs/1411.5754, a player's first 7 seasons in NHL is counted chronologically in the straightforward way: e.g. for a player who got drafted in 1998, his 1st season in NHL is 1998-1999, 2nd is 1999-2000, .... , his 7th season is 2004-2005. Whether this player played games or not in these 7 seasons, these seasons are unchagned.
++ However, in Wilson's data, a player's frist 7 seasons in NHL are counted as only the 7 seasons in which a player did play games in NHL. Take the player "Scott Parker" for example, Wilson skipped season 1999-2000 and season 2004-2005 during which Parker didn't play games, and added season 2005-2006 and season 2006-2007 as Parker's seven season. As a result, the sum of seven-season of GP for a larger number of players is incorrect in Wilson's dataset.
++ The following example is taken from `table_3`
+
+PlayerId | 8465016 | GP |
+-------- |-------- | --------|
+PlayerName | Scott Parker |   |
+DraftYear | 1998 |       |
+1st season | 1998-1999 | 27 |
+2nd season | 1999-2000 | 0 |
+3rd season | 2000-2001 | 69 |
+4th season | 2001-2002 | 63 |
+5th season | 2002-2003 | 43 |
+6th season | 2003-2004 | 50 |
+7th season | 2004-2005 | 0 |
+8th season | 2005-2006 | 10 |
+9th season | 2006-2007 | 21 |
+10th season | 2007-2008 | 25 |
+Wison's sum | = 27 + 69 + 63 + 43 + 50 + 10 + 21 | = 283 |
+Correct sum | = 27 + 0 + 69 + 63 + 43 + 50 + 0 | = 252
+
 ### Step 7: skater stats with CSS rank for year 1998-2002 and 2004-2008.
 + Player stats for skaters in `table_2` including their CSS ranks is saved as view "`chao_draft.nhl_nonzerogames_skaters_stats_1998_2008_view`"(referred as `view_10`).
 + There are 1106 distinct players in `view_10`; 778 of them have CSS ranks.
@@ -90,7 +112,7 @@ These two views sum number of GP and TOI in minutes for each season for each pla
 + Excluding year 2003, player stats for skaters in `table_4` including their CSS ranks is saved as view "`chao_draft.elite_zerogames_skaters_stats_10_years_view`"(referred as `view_13`).
 + There are 1236 distinct players in `view_13`; 817 of them have CSS ranks.
 + Union `view_11` and `view_13` to include player stats for all skater, whether player for NHL or not, in one view as "`chao_draft.all_skaters_stats_10_years_view`" (referred as `view_14`)
-+ There are 2200 distinct players in `view_14`; 1539 of them have CSS ranks.
++ There are 964+1236=2200 distinct players in `view_14`; 722+817=1539 of them have CSS ranks.
 
 
 ### Step 8: summerize all players' and seasons' statisticts in one row.
