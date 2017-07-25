@@ -61,147 +61,172 @@ def get_store_directory(season, gametype):
 def crawl_data(txt_file, driver):
 
 	row_path = '//*[@id="stats-page-body"]/div[3]/div/div/div/div/table/tbody[1]'
-	num_pages_text =driver.find_element_by_xpath('//*[@id="stats-page-body"]/div[3]/div/div/div/div/table/tbody[2]/tr/td/div/div/div[2]/span').text
+	# //*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/span
+	num_pages_text =driver.find_element_by_xpath('//*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/span').text
 	num_pages_text = unicodedata.normalize('NFKD', num_pages_text).encode('ascii', 'ignore')
-	str2_list = num_pages_text.split(" ")
-	total_num_pages = int(str2_list[1])
+	#str2_list = num_pages_text.split(" ")
+	total_num_pages = int(num_pages_text)
 	print "Total number of pages to be crawled is " + str(total_num_pages)
-				
-	for page_num in range (1, total_num_pages + 1):
+	lastPage = True
+	print 'check point 1'
+	for page_num in range(0, total_num_pages):
+		print 'check point 2'
 	#go to that page
 		data_record = []
-		page_pointer = driver.find_element_by_xpath('//*[@id="stats-page-body"]/div[3]/div/div/div/div/table/tbody[2]/tr/td/div/div/div[2]/select/option[' + str(page_num) + ']').click()
-		print "Currently crawling page # " + str(page_num)
+	# //*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/div
+	# //*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/div/input[@value=\'' + str(page_num) + '\']
+		if lastPage:
+			lastPage = False
+		else:
+			page_pointer = driver.find_element_by_xpath('//*[@id="stats-page-body"]/div[3]/div[2]/div/div[1]/button').click()
+		# //*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/div/input
+		curr_page_num = driver.find_element_by_xpath(
+			'//*[@id="stats-page-body"]/div[3]/div[2]/div/div[2]/span[2]/div/input').get_attribute("value")
+		curr_page_num = unicodedata.normalize('NFKD', curr_page_num).encode('ascii', 'ignore')
+		print "Currently crawling page # " + curr_page_num
 
-		total_num_rows = len(driver.find_elements_by_xpath('//*[@id="stats-page-body"]/div[3]/div/div/div/div/table/tbody[1]/tr'))
-		print "Total number of rows on page # " + str(page_num) + " is " + str(total_num_rows)
+		total_num_rows = len(driver.find_elements_by_class_name('rt-tr-group'))
+		print "Total number of rows on page # " + curr_page_num + " is " + str(total_num_rows)         # including blank rows
 
+		row_path = '//*[@id="stats-page-body"]/div[3]/div[1]/div[3]'
 		for row_num in range(1, total_num_rows + 1):
 			data_record_dict = {}
-			current_row_path = row_path + "/tr[" + str(row_num) + "]"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]
+			current_row_path = row_path + "/div[" + str(row_num) + "]"
 
 			try:
-				driver.find_element_by_xpath(current_row_path)			
+				# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[2]/div/a
+				id_url_xpath = current_row_path + "/div/div[2]/div/a"
+				id_url = driver.find_element_by_xpath(id_url_xpath).get_attribute("href")
 			except:
-				print "row number is " + str(row_num)   # how to flip the page?
+				print "row number is " + str(row_num)
 				break
- 
-			id_url_xpath =  current_row_path + "/td[2]/div/a"
-			id_url = driver.find_element_by_xpath(id_url_xpath).get_attribute("href")
+
 			id_url = unicodedata.normalize('NFKD', id_url).encode('ascii', 'ignore')
-			player_id = id_url[(len(id_url)-7) :]
+			player_id = id_url[(len(id_url)-7):]
+			print "player id is " + player_id
 			data_record_dict = record_dict_value(data_record_dict, "PlayerID", player_id)
 
-	 
-			player_name_xpath =  current_row_path + "/td[2]/div/a"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[2]/div/a
+			player_name_xpath = current_row_path + "/div/div[2]/div/a"
 			player_name = driver.find_element_by_xpath(player_name_xpath).text
 			player_name = unicodedata.normalize('NFKD', player_name).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "PlayerName", player_name)
+			data_record_dict = record_dict_value(data_record_dict, "PlayerName", player_name)
 
- 
-			season_xpath =  current_row_path + "/td[3]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[3]/div
+			season_xpath =  current_row_path + "/div/div[3]/div"
 			season = driver.find_element_by_xpath(season_xpath).text
 			season = unicodedata.normalize('NFKD', season).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "Season", season)
 
-	 
-			team_xpath =  current_row_path + "/td[4]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[4]
+			team_xpath = current_row_path + "/div/div[4]"
 			team = driver.find_element_by_xpath(team_xpath).text
 			team = unicodedata.normalize('NFKD', team).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "Team",team)
+			data_record_dict = record_dict_value(data_record_dict, "Team", team)
 
- 
-			pos_xpath =  current_row_path + "/td[5]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[5]
+			pos_xpath = current_row_path + "/div/div[5]"
 			pos = driver.find_element_by_xpath(pos_xpath).text
 			pos = unicodedata.normalize('NFKD', pos).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "Position",pos)
+			data_record_dict = record_dict_value(data_record_dict, "Position",pos)
 
-			gp_xpath =  current_row_path + "/td[6]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[6]
+			gp_xpath = current_row_path + "/div/div[6]"
 			gp = driver.find_element_by_xpath(gp_xpath).text
 			gp = unicodedata.normalize('NFKD', gp).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "GP", gp)
+			data_record_dict = record_dict_value(data_record_dict, "GP", gp)
 
-			g_xpath =  current_row_path + "/td[7]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[7]
+			g_xpath =  current_row_path + "/div/div[7]"
 			g = driver.find_element_by_xpath(g_xpath).text
 			g = unicodedata.normalize('NFKD', g).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "G", g)
+			data_record_dict = record_dict_value(data_record_dict, "G", g)
 
-			a_xpath =  current_row_path + "/td[8]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[8]
+			a_xpath = current_row_path + "/div/div[8]"
 			a = driver.find_element_by_xpath(a_xpath).text
 			a = unicodedata.normalize('NFKD', a).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "A", a)
+			data_record_dict = record_dict_value(data_record_dict, "A", a)
 
-			p_xpath =  current_row_path + "/td[9]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[9]
+			p_xpath = current_row_path + "/div/div[9]"
 			p = driver.find_element_by_xpath(p_xpath).text
 			p = unicodedata.normalize('NFKD', p).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "P", p)
+			data_record_dict = record_dict_value(data_record_dict, "P", p)
 
-			pm_xpath =  current_row_path + "/td[10]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[10]
+			pm_xpath = current_row_path + "/div/div[10]"
 			pm = driver.find_element_by_xpath(pm_xpath).text
 			pm = unicodedata.normalize('NFKD', pm).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "+/-", pm)
+			data_record_dict = record_dict_value(data_record_dict, "+/-", pm)
 
-			pim_xpath =  current_row_path + "/td[11]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[11]
+			pim_xpath = current_row_path + "/div/div[11]"
 			pim = driver.find_element_by_xpath(pim_xpath).text
 			pim = unicodedata.normalize('NFKD', pim).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "PIM", pim)
+			data_record_dict = record_dict_value(data_record_dict, "PIM", pim)
 
-			pgp_xpath =  current_row_path + "/td[12]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[12]/div
+			pgp_xpath = current_row_path + "/div/div[12]/div"
 			pgp = driver.find_element_by_xpath(pgp_xpath).text
 			pgp = unicodedata.normalize('NFKD', pgp).encode('ascii', 'ignore')
-			data_record_dict =  record_dict_value(data_record_dict, "P/GP", pgp)
+			data_record_dict = record_dict_value(data_record_dict, "P/GP", pgp)
 
-			ppg_xpath =  current_row_path + "/td[13]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[13]
+			ppg_xpath =  current_row_path + "/div/div[13]"
 			ppg = driver.find_element_by_xpath(ppg_xpath).text
 			ppg = unicodedata.normalize('NFKD', ppg).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "PPG", ppg)
 
-			ppp_xpath =  current_row_path + "/td[14]/div"
+			ppp_xpath =  current_row_path + "/div/div[14]"
 			ppp = driver.find_element_by_xpath(ppp_xpath).text
 			ppp = unicodedata.normalize('NFKD', ppp).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "PPP", ppp)
 
-			shg_xpath =  current_row_path + "/td[15]/div"
+			shg_xpath =  current_row_path + "/div/div[15]"
 			shg = driver.find_element_by_xpath(shg_xpath).text
 			shg = unicodedata.normalize('NFKD', shg).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "SHG", shg)
 
-			shp_xpath =  current_row_path + "/td[16]/div"
+			shp_xpath =  current_row_path + "/div/div[16]"
 			shp = driver.find_element_by_xpath(shp_xpath).text
 			shp= unicodedata.normalize('NFKD', shp).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "SHP", shp)
 
-			gwg_xpath =  current_row_path + "/td[17]/div"
+			gwg_xpath =  current_row_path + "/div/div[17]"
 			gwg = driver.find_element_by_xpath(gwg_xpath).text
 			gwg = unicodedata.normalize('NFKD', gwg).encode('ascii', 'ignore')
 			data_record_dict = record_dict_value(data_record_dict, "GWG", gwg)
 
-			otg_xpath =  current_row_path + "/td[18]/div"
+			otg_xpath =  current_row_path + "/div/div[18]"
 			otg = driver.find_element_by_xpath(otg_xpath).text
 			otg = unicodedata.normalize('NFKD', otg).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "OTG", otg)
 
-			s_xpath =  current_row_path + "/td[19]/div"
+			s_xpath =  current_row_path + "/div/div[19]"
 			s = driver.find_element_by_xpath(s_xpath).text
 			s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore')	
 			data_record_dict =  record_dict_value(data_record_dict, "S", s)
 
-			spercentage_xpath =  current_row_path + "/td[20]/div"
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[20]/div
+			spercentage_xpath =  current_row_path + "/div/div[20]/div"
 			spercentage = driver.find_element_by_xpath(spercentage_xpath).text
 			spercentage = unicodedata.normalize('NFKD', spercentage).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "S%", spercentage)
- 
-			toigp_xpath =  current_row_path + "/td[21]/div"
+
+			# //*[@id="stats-page-body"]/div[3]/div[1]/div[3]/div[1]/div/div[21]/div
+			toigp_xpath =  current_row_path + "/div/div[21]/div"
 			toigp = driver.find_element_by_xpath(toigp_xpath).text
 			toigp = unicodedata.normalize('NFKD', toigp).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "TOI/GP", toigp)
 
-			shifts_xpath =  current_row_path + "/td[22]/div"
+			shifts_xpath =  current_row_path + "/div/div[22]/div"
 			shifts = driver.find_element_by_xpath(shifts_xpath).text
 			shifts = unicodedata.normalize('NFKD', shifts).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "Shifts/GP", shifts)
 
-			fow_xpath =  current_row_path + "/td[23]/div"
+			fow_xpath =  current_row_path + "/div/div[23]/div"
 			fow = driver.find_element_by_xpath(fow_xpath).text
 			fow = unicodedata.normalize('NFKD', fow).encode('ascii', 'ignore')
 			data_record_dict =  record_dict_value(data_record_dict, "FOW%", fow)
